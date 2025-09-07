@@ -1,0 +1,141 @@
+@media(max-width: 1400px) {
+    .header_wrapper .navbar-expand-lg .navbar-nav {
+        align-items: center;
+    }
+
+    .header_wrapper .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0;
+        font-size: .875rem;
+    }
+
+    .main-btn {
+        font-size: .875rem;
+    }
+    .gallery_wrapper .gallery-item img{
+        height: 216px;
+    }
+
+}
+
+@media(max-width:1200px) {
+    .main-btn {
+        /*border : 0.0625rem solid var(--primary-color); */
+        padding: .25rem 1.56rem;
+        font-size: 0.6875rem;
+    }
+
+    .bookng_area .main-btn {
+        padding-left: .3125rem !important;
+        padding-right: .3125rem !important;
+        /* box-sizing: 0.625rem .075rem 0 rgb(0 0 0 /10%);
+
+    font-size: 0.6875rem; */
+        /* border: .075rem solid var(--primary-color); */
+    }
+    .service-item-wrap .tab-content img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .service-menu-area ul li{
+        width: 350px;
+        height: 145px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .service-menu-area ul li a{
+        margin-bottom: .18125rem;
+        overflow: hidden;
+    } l
+    .service-menu-areaul li a h5{
+        margin-bottom: .375rem;
+    }
+   
+}
+
+@media(max-width: 991px) {
+
+    section {
+        padding: 1.875rem 0;
+
+    }
+
+    .header-scrolled {
+        height: auto;
+
+    }
+
+    .header_wrapper .menu-navbar-nav {
+        text-align: center;
+        /* background-color: var(); */
+        padding: .9375rem;
+
+    }
+
+    .header_wrapper .nav-item .nav-link {
+        margin-top: .9375rem;
+    }
+
+    .about_wrapper {
+        padding-top: 22.375rem;
+    }
+    .service-item-wrap .tab-content img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .service-menu-area ul li a{
+        margin-bottom: .8125rem;
+        overflow: hidden;
+    } l
+    .service-menu-areaul li a h5{
+        margin-bottom: .375rem;
+    }
+    .price_wrapper .card h3,
+    .price_wrapper .card h5,
+    .price_wrapper .card p {
+        font-size: 1.3rem !important;
+    }
+    .blog_wrapper .blog-content{
+        margin: 0;
+    }
+}
+
+@media(max-width : 767px) {
+    h1 {
+        font-size: 1.875rem;
+        line-height: 2.5rem;
+
+    }
+
+    h3 {
+        font-size: 1.75rem;
+        line-height: 2.1875rem;
+
+    }
+
+    h5 {
+        font-size: 1.25rem;
+
+    }
+
+    p {
+        font-size: .8125rem;
+        line-height: 1.5rem;
+
+    }
+    .service-item-wrap .slide img{
+        width: 100%;
+        margin-left: 0;
+    }
+.service-menu-area{
+    padding: 1.5rem 0.5rem;
+}
+
+.service-menu-area ul li {
+    margin-left: unset !important;
+}
+
+.footer_wrapper > div{
+    padding: 0 1.875rem;
+}
+
+}

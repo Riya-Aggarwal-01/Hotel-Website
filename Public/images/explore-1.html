@@ -1,0 +1,1947 @@
+<!doctype html>
+<!--[if lt IE 6 ]>
+<html class="ie ie6 " lang="en-US"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7 " lang="en-US"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8 " lang="en-US"> <![endif]-->
+<!--[if IE 9 ]>
+<html class="ie ie9 " lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="crystal_hotel  ltr" lang="en-US">
+<!--<![endif]-->
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="Cache-control" content="public">
+  <link rel="icon" type="image/svg+xml" href="https://www.hotelcapucines.fr/wp-content/themes/pro-theme-crystal/css/images/favicon.svg">
+  <title>Hôtel Capucines</title>
+
+<script type="text/javascript">
+/* GA TRACKER */
+
+/* Fb nb delay */
+
+			var FB_nb_day_delay = 0;
+</script>
+<meta name="google-site-verification" content="N8Xm76bgdvj70ejUElokwpF7B-c9KD7ACSCmuiGhVtU"/>
+
+
+
+		<style>html { margin-top: 0px !important; } * html body { margin-top: 0px !important; }</style>
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+<script no-loader>/* Added by mu-plugin gmaps_keys_api_client.php */var fb__website_gmap_api_key = "AIzaSyD1634O8bXTRUKvIWnqTc6otK3TJRKn0jw";</script>      <script type="text/javascript" no-loader>var $AvailProConfig = {"enable":"1","base_url":"https:\/\/www.secure-hotel-booking.com\/Hotel-les-Capucines\/JKNJ\/","hid":"28488","groupid":"11512","is_group_be":"","excludeoffers":"","infants_maxage":"2","pass_language":"1","hide_best_price":"","hide_last_room":"","currency":"EUR","language":"EN"};</script>
+            <!-- DEdge Macaron plugin output ( macaron-utils.min.js ) -->
+        <script no-loader type='text/javascript'>
+            var dedge_macaron_enabled = true;
+			!function(n){var e={};function t(r){if(e[r])return e[r].exports;var a=e[r]={i:r,l:!1,exports:{}};return n[r].call(a.exports,a,a.exports,t),a.l=!0,a.exports}t.m=n,t.c=e,t.d=function(n,e,r){t.o(n,e)||Object.defineProperty(n,e,{enumerable:!0,get:r})},t.r=function(n){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(n,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(n,"__esModule",{value:!0})},t.t=function(n,e){if(1&e&&(n=t(n)),8&e)return n;if(4&e&&"object"==typeof n&&n&&n.__esModule)return n;var r=Object.create(null);if(t.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:n}),2&e&&"string"!=typeof n)for(var a in n)t.d(r,a,function(e){return n[e]}.bind(null,a));return r},t.n=function(n){var e=n&&n.__esModule?function(){return n.default}:function(){return n};return t.d(e,"a",e),e},t.o=function(n,e){return Object.prototype.hasOwnProperty.call(n,e)},t.p="",t(t.s=5)}({5:function(n,e,t){"use strict";t.r(e),t.d(e,"MacaronFormatUtils",(function(){return r}));var r=function(){function n(){}return n.parseConsentString=function(n,e){var t={ad_storage:"strings"==e?"denied":"0",ad_user_data:"strings"==e?"denied":"0",ad_personalization:"strings"==e?"denied":"0",analytics_storage:"strings"==e?"denied":"0",functionality_storage:"strings"==e?"denied":"0",personalization_storage:"strings"==e?"denied":"0",security_storage:"strings"==e?"denied":"0"},r=n.match(/^V:([0-9]+),(.*)$/i);if(r){if(r[1]!==this.currentConsentFormat)return null;var a=r[2].split(",");if(a.length>0)for(var o=0;o<a.length;o++){var i=a[o].split(":");if(2==i.length){var s=i[0],u=i[1];if(void 0!==t[s]&&-1!==["0","1","granted","denied"].indexOf(u))switch(u){case"0":case"denied":t[s]="strings"==e?"denied":"0";break;case"1":case"granted":t[s]="strings"==e?"granted":"1"}}}return t}return null},n.serializeConsentObject=function(n){var e={ad_storage:"0",ad_user_data:"0",ad_personalization:"0",analytics_storage:"0",functionality_storage:"0",personalization_storage:"0",security_storage:"0"};Object.keys(n).forEach((function(t){switch(n[t]){case"0":case"denied":e[t]="0";break;case"1":case"granted":e[t]="1"}}));var t=["V:"+this.currentConsentFormat];return Object.keys(e).forEach((function(n){t.push(n+":"+e[n])})),t.join(",")},n.convertConsentToMacaronConsentArray=function(n){var e={ad_storage:"ads",ad_user_data:"ad_user_data",ad_personalization:"ad_personalization",analytics_storage:"stats",functionality_storage:"prefs",personalization_storage:"personalization",security_storage:"needed"},t=[];return Object.keys(e).forEach((function(r){var a=e[r];"1"!=n[r]&&"granted"!=n[r]||t.push(a)})),t},n.convertMacaronConsentArrayToGoogleFormat=function(n){var e={ads:"ad_storage",ad_user_data:"ad_user_data",ad_personalization:"ad_personalization",stats:"analytics_storage",prefs:"functionality_storage",personalization:"personalization_storage",needed:"security_storage"},t={ad_storage:"0",ad_user_data:"0",ad_personalization:"0",analytics_storage:"0",functionality_storage:"0",personalization_storage:"0",security_storage:"0"};return n.forEach((function(n){void 0!==e[n]?t[e[n]]="1":window.console&&console.log("Warning, skipping",n,"in consent conversion")})),t},n.getMacaronConsentArray=function(n){if(void 0===n)return[];var e=this.parseConsentString(n,"numbers");return null!==e?this.convertConsentToMacaronConsentArray(e):[]},n.hasValidCookieConsent=function(n){return void 0!==n&&null!==this.parseConsentString(n,"numbers")},n.currentConsentFormat="2",n}();void 0===window.MacaronFormatUtils&&(window.MacaronFormatUtils=r)}});
+!function(o,t){function _(n,e){return e.every(function(e){return-1!==n.indexOf(e)})}var e;e="_deCookiesConsent",t="undefined"!=typeof __deCookiesConfig&&void 0!==__deCookiesConfig.cookieNames&&void 0!==__deCookiesConfig.cookieNames[e]?__deCookiesConfig.cookieNames[e]:e;o.dedge_macaron_is_enabled=function(){return void 0!==o.dedge_macaron_enabled&&o.dedge_macaron_enabled},o.dedge_macaron_get_consent_categories=function(){if(!o.dedge_macaron_is_enabled())return["needed","prefs","stats","ads","unknown"];var e=function(e){e=("; "+document.cookie).split(`; ${e}=`);return 2===e.length?decodeURIComponent(e.pop().split(";").shift()):null}(t),n=[];if(!1!==e){n=[];try{n=JSON.parse(e)}catch(e){"undefined"!=typeof MacaronFormatUtils?n=MacaronFormatUtils.getMacaronConsentArray():window.console&&console.log("Warning, could not read Macaron Consent. MacaronFormatUtils not found")}}return n},o.dedge_macaron_on_consent=function(e,n,d){d=d||function(){};function o(o,t,e,a){return function(e){var n;r||(o=Array.isArray(o)?o:[o],(n=dedge_macaron_get_consent_categories())&&n.length&&(_(n,o)||_(o,["any"]))?(r=!0,t(n,a,e)):d(n,a,e))}}var t,r=!1;document.addEventListener("_deCookiesConsentGivenVanilla",o(e,n,0,"consentgiven")),t=o(e,n,0,"docready"),/complete|loaded|interactive/.test(document.readyState)?t({detail:"DOMContentAlreadyLoaded"}):document.addEventListener("DOMContentLoaded",function(e){t(e)})},o.dedge_macaron_load_consent_dependent_sections=function(i){var s,e,n;"GIVEN"!==(i=i||"GIVEN")&&"DENIED"!==i||(s="[MacaronCDS("+i+")] ",e=function(){var r="data-macaron-consent-cat",c=("DENIED"===i&&(r="data-macaron-consent-denied-cat"),dedge_macaron_get_consent_categories()),e=jQuery('script[type="application/json"][data-macaron-aware="true"]['+r+"]");0<e.length&&e.each(function(e,n){var o=jQuery(this),t=o.attr(r),e=o.attr("id")||"unknown-"+i+"-"+e,a=(a=t.split(",")).map(function(e){return e.replace(/[^a-z]+/g,"")});if("GIVEN"===i?_(c,a):!_(c,a)){window.console&&console.log(s+"LOAD #"+e+" for "+t);try{var d=JSON.parse(o.text());o.after(d),o.remove()}catch(e){window.console&&console.log(s+"ERROR",e,o,t)}}else window.console&&console.log(s+"SKIP #"+e+". Required="+t+"; Current="+c.join(","))})},"undefined"==typeof jQuery?n=setInterval(function(){"undefined"!=typeof jQuery&&(clearInterval(n),e())},150):e())},o.dedge_macaron_on_consent("any",function(){o.dedge_macaron_load_consent_dependent_sections("GIVEN")}),o.dedge_macaron_on_consent("any",function(){o.dedge_macaron_load_consent_dependent_sections("DENIED")})}(window,"_deCookiesConsent");        </script>
+        
+
+<!-- D-EdgeFBTrackingSupportsGA4 -->            <script no-loader>
+                fb_tracking_var = {
+                    usetracking: '1',
+                };
+                                fb_tracking_var.urls = ['secure-hotel-booking.com'];
+                                fb_tracking_var.usegtm = '1';
+
+                fb_tracking_var.tracker = {"fb-ga4-dedgeall-id": "G-CMJG3ZE5EE", "fb-ga4-hotel-id": "G-JJDJ0SZH5M"};dataLayer = [{"fb-ga4-dedgeall-id": "G-CMJG3ZE5EE", "fb-ga4-hotel-id": "G-JJDJ0SZH5M"}];                fb_tracking_var.gtmfb = 'GTM-NHJGD93';
+                dataLayer=dataLayer||[];
+dataLayer.push({"digitalmediahotelId":{"hotelid":["TAFR43266606"],"groupeid":["CA005732"],"hotelsaleforcedid":["D00143849"]},"facebooktracking":{"enabled":false},"googleadsconversionlinker":{"enabled":true},"sojerntracking":{"enabled":false},"digitalmediafingerprint":{"enabled":true,"url":"https://tracker.d-edgeconnect.media/generic/FPOnHotelWebsite.js"},"digitalmediachromeattributionapi":{"enabled":false},"domaineurl":"hotelcapucines.fr"});
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NHJGD93');
+						                fb_tracking_var.events = [];
+            </script>
+                            <script no-loader async src="https://staticaws.fbwebprogram.com/dedge_tracking_decorator/decorator.js"></script>
+                <script no-loader async src="https://dedge-cookies.web.app/macaron-format-utils.min.js"></script>
+                <script no-loader>
+                    var _DEdgeTrackingDecorator = _DEdgeTrackingDecorator || {};
+                    _DEdgeTrackingDecorator.config = {"requireConsent":false,"propagateConsent":false,"cmpType":"macaron","autoDecorate":true,"formsToDecorate":["#idForm","form[name=\"idForm\"]","#js__fbqs__form","#dynamic_calendar_form"],"overrideWindowOpen":true,"handleGoogleAnalytics":true,"debug":true,"dontLogSuccessMessages":false};
+                    function TrackingDecoratorSetMacaronConsentOnEvent (event) {
+                        if (typeof event.detail.consent !== 'undefined' && Array.isArray(event.detail.consent) && event.detail.consent.indexOf('ads') !== -1) {
+                            var tmp = setInterval(function () {
+                                if (typeof _DEdgeTrackingDecorator.setStorageConsent === 'function') {
+                                    _DEdgeTrackingDecorator.setStorageConsent(true);
+                                    clearInterval(tmp);
+                                }
+                            }, 100);
+                        }
+                    }
+                    document.addEventListener('macaronConsentVanilla', TrackingDecoratorSetMacaronConsentOnEvent);
+                    document.addEventListener('_deCookiesConsentGivenVanilla', TrackingDecoratorSetMacaronConsentOnEvent);
+                    // Required for availpro.js
+                    if (typeof window.DEdgeBookingFormDecorators === 'undefined') {
+                        window.DEdgeBookingFormDecorators = [];
+                    }
+                    document.addEventListener('dedge_tracking_params_available', function () {
+                        try {
+                            if (typeof _DEdgeTrackingDecorator!== 'undefined' &&
+                                typeof _DEdgeTrackingDecorator.decorateObject !== 'undefined') {
+                                window.DEdgeBookingFormDecorators.push(_DEdgeTrackingDecorator.decorateObject);
+                            }
+                        } catch (e) {
+                            // do nothing
+                        }
+                    });
+                    //Last chance: decorate links on click
+                    function fbTrackingMaybeDecorateOnClick(evt) {
+                        try {
+                            var theLink = evt.target;
+                            if (
+                                theLink.tagName.toUpperCase() !== 'A'
+                                && Element.prototype.closest
+                                && theLink.closest('a') !== null
+                            ) {
+                                theLink = theLink.closest('a');
+                            }
+                            if (
+                                typeof theLink.href !== 'undefined'
+                                && typeof _DEdgeTrackingDecorator!== 'undefined'
+                                && typeof _DEdgeTrackingDecorator.decorator !== 'undefined'
+                                && typeof _DEdgeTrackingDecorator.decorator.shouldDecorateURL !== 'undefined'
+                                && typeof _DEdgeTrackingDecorator.decorateUrl !== 'undefined'
+                                && _DEdgeTrackingDecorator.decorator.shouldDecorateURL(theLink.href)
+                            ) {
+                                theLink.href = _DEdgeTrackingDecorator.decorateUrl(theLink.href);
+                            }
+                        } catch (err) {}
+                    }
+                    document.addEventListener('click', fbTrackingMaybeDecorateOnClick);
+                </script>
+                <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<link rel="alternate" hreflang="fr" href="https://www.hotelcapucines.fr/" />
+<link rel="alternate" hreflang="en" href="https://www.hotelcapucines.fr/en/" />
+<link rel="alternate" hreflang="de" href="https://www.hotelcapucines.fr/de/" />
+<link rel="alternate" hreflang="it" href="https://www.hotelcapucines.fr/it/" />
+<link rel="alternate" hreflang="x-default" href="https://www.hotelcapucines.fr/" />
+<script>
+              var FBRESA = "//redirect.fastbooking.com/DIRECTORY/";
+              var is_AVP = true;
+             </script>
+	<!-- This site is optimized with the Yoast SEO plugin v22.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="Located at the doors of Saint-Tropez, the Capucines hotel is a charming establishment ideally situated in Gassin and offering a breathtaking view of the" />
+	<link rel="canonical" href="https://www.hotelcapucines.fr/en/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Hôtel Capucines - Capucines Landing Page" />
+	<meta property="og:description" content="Located at the doors of Saint-Tropez, the Capucines hotel is a charming establishment ideally situated in Gassin and offering a breathtaking view of the" />
+	<meta property="og:url" content="https://www.hotelcapucines.fr/en/" />
+	<meta property="og:site_name" content="Capucines Landing Page" />
+	<meta property="article:modified_time" content="2024-09-17T12:18:48+00:00" />
+	<meta property="og:image" content="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2023/05/DSC_3499-HDR.jpg" />
+	<meta property="og:image:width" content="1798" />
+	<meta property="og:image:height" content="1200" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.hotelcapucines.fr/en/","url":"https://www.hotelcapucines.fr/en/","name":"Hôtel Capucines - Capucines Landing Page","isPartOf":{"@id":"https://www.hotelcapucines.fr/en/#website"},"primaryImageOfPage":{"@id":"https://www.hotelcapucines.fr/en/#primaryimage"},"image":{"@id":"https://www.hotelcapucines.fr/en/#primaryimage"},"thumbnailUrl":"https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2023/05/DSC_3499-HDR.jpg","datePublished":"2023-03-31T17:46:00+00:00","dateModified":"2024-09-17T12:18:48+00:00","description":"Located at the doors of Saint-Tropez, the Capucines hotel is a charming establishment ideally situated in Gassin and offering a breathtaking view of the","breadcrumb":{"@id":"https://www.hotelcapucines.fr/en/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.hotelcapucines.fr/en/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.hotelcapucines.fr/en/#primaryimage","url":"https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2023/05/DSC_3499-HDR.jpg","contentUrl":"https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2023/05/DSC_3499-HDR.jpg","width":1798,"height":1200},{"@type":"BreadcrumbList","@id":"https://www.hotelcapucines.fr/en/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://www.hotelcapucines.fr/en/#website","url":"https://www.hotelcapucines.fr/en/","name":"Capucines Landing Page","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.hotelcapucines.fr/en/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//websdk.fastbooking-services.com' />
+<link rel='dns-prefetch' href='//code.jquery.com' />
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<link rel='dns-prefetch' href='//staticaws.fbwebprogram.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+
+<style id='builder-colors'>
+:root{
+--header-color-associated : hsl(0, 0%, 20%);
+--header-d-20 : hsl(0, 0%, 80%);
+--header-d-15 : hsl(0, 0%, 85%);
+--header-d-10 : hsl(0, 0%, 90%);
+--header-d-5 : hsl(0, 0%, 95%);
+--header-d-3 : hsl(0, 0%, 97%);
+--header : hsl(0, 0%, 100%);
+--header-l-3 : hsl(0, 0%, 103%);
+--header-l-5 : hsl(0, 0%, 105%);
+--header-l-10 : hsl(0, 0%, 110%);
+--header-l-15 : hsl(0, 0%, 115%);
+--header-l-20 : hsl(0, 0%, 120%);
+--header-hsl : 0, 0%, 100%;
+--bg-color-associated : hsl(0, 0%, 20%);
+--bg-d-20 : hsl(0, 0%, 80%);
+--bg-d-15 : hsl(0, 0%, 85%);
+--bg-d-10 : hsl(0, 0%, 90%);
+--bg-d-5 : hsl(0, 0%, 95%);
+--bg-d-3 : hsl(0, 0%, 97%);
+--bg : hsl(0, 0%, 100%);
+--bg-l-3 : hsl(0, 0%, 103%);
+--bg-l-5 : hsl(0, 0%, 105%);
+--bg-l-10 : hsl(0, 0%, 110%);
+--bg-l-15 : hsl(0, 0%, 115%);
+--bg-l-20 : hsl(0, 0%, 120%);
+--bg-hsl : 0, 0%, 100%;
+--titles-color-associated : hsl(0, 0%, 100%);
+--titles-d-20 : hsl(172.14, 31%, 27%);
+--titles-d-15 : hsl(172.14, 31%, 32%);
+--titles-d-10 : hsl(172.14, 31%, 37%);
+--titles-d-5 : hsl(172.14, 31%, 42%);
+--titles-d-3 : hsl(172.14, 31%, 44%);
+--titles : hsl(172.14, 31%, 47%);
+--titles-l-3 : hsl(172.14, 31%, 50%);
+--titles-l-5 : hsl(172.14, 31%, 52%);
+--titles-l-10 : hsl(172.14, 31%, 57%);
+--titles-l-15 : hsl(172.14, 31%, 62%);
+--titles-l-20 : hsl(172.14, 31%, 67%);
+--titles-hsl : 172.14, 31%, 47%;
+--main-color-associated : hsl(0, 0%, 100%);
+--main-d-20 : hsl(172.14, 31%, 27%);
+--main-d-15 : hsl(172.14, 31%, 32%);
+--main-d-10 : hsl(172.14, 31%, 37%);
+--main-d-5 : hsl(172.14, 31%, 42%);
+--main-d-3 : hsl(172.14, 31%, 44%);
+--main : hsl(172.14, 31%, 47%);
+--main-l-3 : hsl(172.14, 31%, 50%);
+--main-l-5 : hsl(172.14, 31%, 52%);
+--main-l-10 : hsl(172.14, 31%, 57%);
+--main-l-15 : hsl(172.14, 31%, 62%);
+--main-l-20 : hsl(172.14, 31%, 67%);
+--main-hsl : 172.14, 31%, 47%;
+--secondary-color-associated : hsl(0, 0%, 0%);
+--secondary-d-20 : hsl(27.31, 71%, 40%);
+--secondary-d-15 : hsl(27.31, 71%, 45%);
+--secondary-d-10 : hsl(27.31, 71%, 50%);
+--secondary-d-5 : hsl(27.31, 71%, 55%);
+--secondary-d-3 : hsl(27.31, 71%, 57%);
+--secondary : hsl(27.31, 71%, 60%);
+--secondary-l-3 : hsl(27.31, 71%, 63%);
+--secondary-l-5 : hsl(27.31, 71%, 65%);
+--secondary-l-10 : hsl(27.31, 71%, 70%);
+--secondary-l-15 : hsl(27.31, 71%, 75%);
+--secondary-l-20 : hsl(27.31, 71%, 80%);
+--secondary-hsl : 27.31, 71%, 60%;
+--third-color-associated : hsl(0, 0%, 100%);
+--third-d-20 : hsl(172.14, 31%, 27%);
+--third-d-15 : hsl(172.14, 31%, 32%);
+--third-d-10 : hsl(172.14, 31%, 37%);
+--third-d-5 : hsl(172.14, 31%, 42%);
+--third-d-3 : hsl(172.14, 31%, 44%);
+--third : hsl(172.14, 31%, 47%);
+--third-l-3 : hsl(172.14, 31%, 50%);
+--third-l-5 : hsl(172.14, 31%, 52%);
+--third-l-10 : hsl(172.14, 31%, 57%);
+--third-l-15 : hsl(172.14, 31%, 62%);
+--third-l-20 : hsl(172.14, 31%, 67%);
+--third-hsl : 172.14, 31%, 47%;
+--highlighted-color-associated : hsl(0, 0%, 0%);
+--highlighted-d-20 : hsl(27.31, 71%, 40%);
+--highlighted-d-15 : hsl(27.31, 71%, 45%);
+--highlighted-d-10 : hsl(27.31, 71%, 50%);
+--highlighted-d-5 : hsl(27.31, 71%, 55%);
+--highlighted-d-3 : hsl(27.31, 71%, 57%);
+--highlighted : hsl(27.31, 71%, 60%);
+--highlighted-l-3 : hsl(27.31, 71%, 63%);
+--highlighted-l-5 : hsl(27.31, 71%, 65%);
+--highlighted-l-10 : hsl(27.31, 71%, 70%);
+--highlighted-l-15 : hsl(27.31, 71%, 75%);
+--highlighted-l-20 : hsl(27.31, 71%, 80%);
+--highlighted-hsl : 27.31, 71%, 60%;
+--hover-color-associated : hsl(0, 0%, 20%);
+--hover-d-20 : hsl(32.9, 36%, 63%);
+--hover-d-15 : hsl(32.9, 36%, 68%);
+--hover-d-10 : hsl(32.9, 36%, 73%);
+--hover-d-5 : hsl(32.9, 36%, 78%);
+--hover-d-3 : hsl(32.9, 36%, 80%);
+--hover : hsl(32.9, 36%, 83%);
+--hover-l-3 : hsl(32.9, 36%, 86%);
+--hover-l-5 : hsl(32.9, 36%, 88%);
+--hover-l-10 : hsl(32.9, 36%, 93%);
+--hover-l-15 : hsl(32.9, 36%, 98%);
+--hover-l-20 : hsl(32.9, 36%, 103%);
+--hover-hsl : 32.9, 36%, 83%;
+--white: rgb(255, 255, 255);
+--gray-50: rgb(248, 249, 250);
+--gray-100: rgb(241, 243, 244);
+--gray-300: rgb(218, 220, 224);
+--gray-400: rgb(186, 190, 195);
+--gray-500: rgb(154, 160, 166);
+--gray-600: rgb(128, 134, 139);
+--gray-700: rgb(95, 99, 104);
+--gray-800: rgb(60, 64, 67);
+--gray-900: rgb(32, 33, 36);
+--black: rgb(0, 0, 0);
+}
+</style><style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link rel='stylesheet' id='wpml-blocks-css' href='https://www.hotelcapucines.fr/wp-content/plugins/sitepress-multilingual-cms/dist/css/blocks/styles.css?ver=4.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css' href='//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/_shared/assets/css/slick.min.css?ver=1.9.0' type='text/css' media='all' />
+<link rel='stylesheet' id='slideshow-css' href='//www.hotelcapucines.fr/wp-content/themes/pro-theme-crystal/blocks/slideshow/assets/css/slideshow.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='booking_form_inline-css' href='//www.hotelcapucines.fr/wp-content/themes/pro-theme-crystal/blocks/booking_form/assets/css/bookingform_inline.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-css' href='//code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css' type='text/css' media='all' />
+<link rel='stylesheet' id='anchors-css' href='//www.hotelcapucines.fr/wp-content/themes/pro-theme-crystal/blocks/anchor_menu/assets/css/anchor.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='main_content-css' href='//www.hotelcapucines.fr/wp-content/themes/pro-theme-crystal/blocks/main_content/assets/css/main_content.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css' href='//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/_shared/assets/css/fancybox.min.css?ver=3.5.7' type='text/css' media='all' />
+<link rel='stylesheet' id='m_custom_scrollbar-css' href='//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/_shared/assets/css/mcscrollbar.min.css?ver=3.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='fusion_components-css' href='//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/main_content/assets/css/fusion_components.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='popup-css' href='//www.hotelcapucines.fr/wp-content/themes/pro-theme-crystal/blocks/popup/assets/css/popup.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='post_preview-css' href='//www.hotelcapucines.fr/wp-content/themes/pro-theme-crystal/blocks/post_preview/assets/css/post_preview.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='additional_content-css' href='//www.hotelcapucines.fr/wp-content/themes/pro-theme-crystal/blocks/additional_content/assets/css/additional_content.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='offers-css' href='//www.hotelcapucines.fr/wp-content/themes/pro-theme-crystal/blocks/offers/assets/css/offers.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='ac_repeater-css' href='//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/additional_content_repeater/assets/css/ac_repeater.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='pannellum-css' href='//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/_shared/assets/css/pannellum.min.css?ver=2.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='gallery-css' href='//www.hotelcapucines.fr/wp-content/themes/pro-theme-crystal/blocks/gallery/assets/css/gallery.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='map-css' href='//www.hotelcapucines.fr/wp-content/themes/pro-theme-crystal/blocks/map/assets/css/map.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='expandable_contents-css' href='//www.hotelcapucines.fr/wp-content/themes/pro-theme-crystal/blocks/expandible_contents/assets/css/expandable_contents.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='main-evo-fonts-css' href='//www.hotelcapucines.fr/wp-content/themes/pro-theme-crystal/css/fonts.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='main-evo-style-css' href='//www.hotelcapucines.fr/wp-content/themes/pro-theme-crystal/css/main.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='custom_evo_style-css' href='//www.hotelcapucines.fr/wp-content/themes/capucines-landing/css/custom_style.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css' href='//use.fontawesome.com/releases/v5.14.0/css/all.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fbicons-css' href='//staticaws.fbwebprogram.com/FBServicesWebfonts/css/services_webfont.css' type='text/css' media='all' />
+<link rel='stylesheet' id='redux-google-fonts-builder_settings-css' href='https://fonts.googleapis.com/css?family=Public+Sans%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CBalthazar%3A400&#038;ver=1726569413' type='text/css' media='all' />
+<script type="text/javascript" src="https://www.hotelcapucines.fr/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://www.hotelcapucines.fr/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://www.hotelcapucines.fr/wp-content/plugins/fbcmsv2/assets/js/availpro.js" id="fblib-js"></script>
+<link rel="https://api.w.org/" href="https://www.hotelcapucines.fr/en/wp-json/" /><link rel="alternate" type="application/json" href="https://www.hotelcapucines.fr/en/wp-json/wp/v2/pages/59" /><link rel='shortlink' href='https://www.hotelcapucines.fr/en/' />
+<link rel="apple-touch-icon" sizes="180x180" href="/wp-content/uploads/sites/17/fb_favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/wp-content/uploads/sites/17/fb_favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/wp-content/uploads/sites/17/fb_favicon/favicon-16x16.png">
+<link rel="manifest" href="/wp-content/uploads/sites/17/fb_favicon/site.webmanifest">
+<link rel="mask-icon" href="/wp-content/uploads/sites/17/fb_favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/wp-content/uploads/sites/17/fb_favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/wp-content/uploads/sites/17/fb_favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '3829210804070893');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none" src=https://www.facebook.com/tr?id=3829210804070893&ev=PageView&noscript=1 />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+
+        <script>
+            var room_id_mapping = {"138205":"https:\/\/www.hotelcapucines.fr\/en\/standard-room\/","138206":"https:\/\/www.hotelcapucines.fr\/en\/superior-room\/","138207":"https:\/\/www.hotelcapucines.fr\/en\/deluxe-suite\/","138208":"https:\/\/www.hotelcapucines.fr\/en\/familial-suite\/","138204":"https:\/\/www.hotelcapucines.fr\/en\/chambre-individuelle\/"};
+            var rooms_page = "https:\/\/www.hotelcapucines.fr\/en\/";
+        </script>
+            <script>
+            var smokingTranslations = {"no":"No","yes":"Yes","both":"Both"};
+        </script>
+        
+
+<style id='builder-fonts'>
+:root{
+--first-font: Public Sans;
+--highlight-font: Balthazar;
+--second-font: Public Sans;
+}
+</style>
+
+        <script>
+            var rtl = false; //for slick
+            var originLeft = true; //for isotope
+        </script>
+
+            <style>
+            .de_block_post_preview .btnCta.scrollToElement,
+            .de_block_filterable_posts .btnCta.scrollToElement,
+            .de_block_detailed_post_preview .btnCta.scrollToElement {
+                display: none !important;
+            }
+        </style>
+    <link rel="icon" href="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2023/04/cropped-Capucines_LogoCMJN-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2023/04/cropped-Capucines_LogoCMJN-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2023/04/cropped-Capucines_LogoCMJN-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2023/04/cropped-Capucines_LogoCMJN-1-270x270.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <style>
+                        qw-room-rate.qw-room-rate__offer-id-493936 {
+                display: none !important;
+            }
+
+            .qw-offer-list__offer-id-493936 {
+                display: none !important;
+            }
+
+                        qw-room-rate.qw-room-rate__offer-id-493930 {
+                display: none !important;
+            }
+
+            .qw-offer-list__offer-id-493930 {
+                display: none !important;
+            }
+
+                        qw-room-rate.qw-room-rate__offer-id-493935 {
+                display: none !important;
+            }
+
+            .qw-offer-list__offer-id-493935 {
+                display: none !important;
+            }
+
+                        qw-room-rate.qw-room-rate__offer-id-493937 {
+                display: none !important;
+            }
+
+            .qw-offer-list__offer-id-493937 {
+                display: none !important;
+            }
+
+            
+        </style>
+        </head>
+
+<body id="light_theme" class="home page-template page-template-template-landing-page page-template-template-landing-page-php page page-id-59 page_on_front dftLangPostId_3" >
+<div id="header_wrapper" class="absolute custom ">
+  <div id="header">
+    <div class=" container">
+      <div class="wrap">
+        <a id="logo" href="https://www.hotelcapucines.fr/en/"><img class="original" src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2023/04/Capucines_Logo_paysage-2.png"
+                                                         alt="logo"><img class="custom" src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2023/04/Capucines_Logo_paysage-2.png"
+                                                                         alt="logo"></a>
+        <div id="menus" class="">
+          <div class="top">
+                          <a class="phone_number hidden-xs"
+                 href="tel:04 94 97 70 05">04 94 97 70 05</a>
+            <div id="languages" class="languages">
+  <div class="desktop">
+    <ul>
+              <li>
+          <a class="lang_sel_sel multi_lang" href="javascript:;">
+            <span>
+            English            </span>
+            <img class="iclflag" src="//staticaws.fbwebprogram.com/FBFlags/languages/round/svg/en.svg" alt="">
+
+          </a>
+                      <ul class="other_languages">
+                              <li>
+                  <a data-locale="fr" class="lang_sel_other" href="https://www.hotelcapucines.fr/">
+                    <span>
+                    Français                    </span>
+                  </a>
+                </li>
+                                <li>
+                  <a data-locale="de" class="lang_sel_other" href="https://www.hotelcapucines.fr/de/">
+                    <span>
+                    Deutsch                    </span>
+                  </a>
+                </li>
+                                <li>
+                  <a data-locale="it" class="lang_sel_other" href="https://www.hotelcapucines.fr/it/">
+                    <span>
+                    Italiano                    </span>
+                  </a>
+                </li>
+                            </ul>
+                  </li>
+            </ul>
+  </div>
+</div>
+          </div>
+                  </div>
+      </div>
+    </div>
+
+    <div id="main_book_wrapper" class="hidden-xs ">
+
+      <div id="main_book" class="open_bookingform_btn main_book ">
+        <a href="javascript:;"
+           class="first_book_now tablet_book hidden-sm"
+           onclick="">Book now</a>
+        <a class="second_book_now tablet_book hidden-md hidden-lg" href="javascript:;"
+           onclick="">Book now</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div id="mobile_bar" class="hidden-sm hidden-md hidden-lg">
+  <span class="book"><a href="javascript:;"
+                        onclick=""
+                        class="open_bookingform_btn  ">Book now</a></span>
+      <a class="phone" href="tel:04 94 97 70 05"><span class="icon"></span></a>
+        <a class="email" href="/cdn-cgi/l/email-protection#fb939e979794bb93948f9e97989a8b8e9892959e88d59d89"><span class="icon"></span></a>
+  
+</div>
+
+<div id="sidebar_overlay" class=""></div>
+
+<div id="menu_sidebar_wrap" class="">
+  <div class="menu_sidebar">
+    <a class="close_sidebar close" href="javascript:;"></a>
+    <div class="menu_sidebar_inner_content">
+      <a id="sidebar_logo" href="https://www.hotelcapucines.fr/en/"><img class="original" src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2023/04/Capucines_Logo_paysage-2.png"
+                                                               alt="logo"></a>
+      <div id="sidebar_menu">
+        <ul class="menu hidden-xs hidden-sm">
+                  </ul>
+        <ul class="menu hidden-md hidden-lg">
+
+                    </ul>
+      </div>
+      <div class="address">
+        <div class="hotelname">Hôtel Capucines</div>	
+		<span class="element element_address">
+			<span class="element_pref">Address</span>
+			<span class="element_data">341 Allée de Domaine de TREIZAIN, SAINT TROPEZ, 83580 Gassin, France</span>
+		</span>	
+		<span class="element element_phone">
+			<span class="element_pref">Phone</span>
+			<span class="element_data"><a href='tel:04 94 97 70 05'>04 94 97 70 05</a></span>
+		</span>	
+		<span class="element element_mail">
+			<span class="element_pref">E-mail</span>
+			<span class="element_data"><a href="/cdn-cgi/l/email-protection#4a222f2626250a22253e2f26292b3a3f2923242f39642c38"><span class="__cf_email__" data-cfemail="e78f828b8b88a78f8893828b84869792848e898294c98195">[email&#160;protected]</span></a></span>
+		</span></div>
+    </div>
+  </div>
+</div><!-- Slideshow START -->    <!-- move variables to slideshow.js -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        var autoplay = true,
+            arrows = true,
+            dots = false,
+            animation = false,
+            ss_lenght = 3,
+            autoplaySpeed = 6000,
+            animationSpeed = 1400;
+    </script>
+
+
+
+    <div id="slideshow-1" class=" de_block de_block_slideshow de_first before_booking_form slideshow_container size_xl">
+        <div class="slideshow">
+                            <div class="slide">
+                        <picture>
+        <source media="(min-width: 1367px)" srcset="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_24-1.jpg">
+        <source media="(min-width: 769px)" srcset="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_24-1-1366x768.jpg">
+        <source media="(min-width: 601px)" srcset="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_24-1-768x1200.jpg">
+        <source media="(min-width: 0px)" srcset="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_24-1-600x1000.jpg">
+        <img fetchpriority="high"  src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_24-1.jpg">
+    </picture>
+<div class="caption center_center"><div class='title big_title'>Hôtel Capucines</div><div class='subtitle'>4 star hotel near to Saint-Tropez</div></div>                </div>
+                                <div class="slide">
+                        <picture>
+        <source media="(min-width: 1367px)" data-srcset="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_36-1.jpg">
+        <source media="(min-width: 769px)" data-srcset="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_36-1-1366x768.jpg">
+        <source media="(min-width: 601px)" data-srcset="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_36-1-768x1200.jpg">
+        <source media="(min-width: 0px)" data-srcset="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_36-1-600x1000.jpg">
+        <img  data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_36-1.jpg">
+    </picture>
+<div class="caption center_center"><div class='title big_title'>Hôtel Capucines</div><div class='subtitle'>4 star hotel near to Saint-Tropez</div></div>                </div>
+                                <div class="slide">
+                        <picture>
+        <source media="(min-width: 1367px)" data-srcset="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_30-1.jpg">
+        <source media="(min-width: 769px)" data-srcset="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_30-1-1366x768.jpg">
+        <source media="(min-width: 601px)" data-srcset="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_30-1-768x1200.jpg">
+        <source media="(min-width: 0px)" data-srcset="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_30-1-600x1000.jpg">
+        <img  data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_30-1.jpg">
+    </picture>
+<div class="caption center_center"><div class='title big_title'>Hôtel Capucines</div><div class='subtitle'>4 star hotel near to Saint-Tropez</div></div>                </div>
+                        </div>
+            <a class="arrow  prev " href="javascript:;"><span>&larr;</span></a>
+    <a class="arrow  next" href="javascript:;"><span>&rarr;</span></a>
+    </div>
+    <!-- Booking Form START -->
+<section id="booking-form-1" class=" de_block de_block_booking_form after_slideshow before_anchor_menu section booking_form_section static inline ">
+    <script no-loader>
+        var hotel_minadults = "1",
+            hotel_minchildren = 0,
+            hotel_delay = 0,
+            hotel_opendate = "09\/28\/2024",
+            hotel_minstay = 1,
+            first_day = 7;
+    </script>
+
+    
+    <!-- start bf -->
+<div id="booking_form_section" class="section lateral_padding hidden-xs hidden-sm">
+  <div class="heading">
+    <div class="section_title">Book a room</div>
+    <div class="section_subtitle">Best rate guarantee</div>
+  </div>
+  <form id="js__fbqs__form" class="clear fbqs__form" name="js__fbqs__form" target="dispoprice">
+    <!-- info fields -->
+    <input type="hidden" value="3" name="showPromotions">
+    <input type="hidden" value="en" name="langue">
+    <input type="hidden" value="" name="Clusternames">
+    <input type="hidden" value="" name="group">
+    <input type="hidden" value="" name="Hotelnames">
+    <!-- dates fields -->
+    <input type='hidden' name='frommonth' value=''>
+    <input type='hidden' name='fromday' value=''>
+    <input type='hidden' name='fromyear' value=''>
+    <input type='hidden' name='tomonth' value=''>
+    <input type='hidden' name='today' value=''>
+    <input type='hidden' name='toyear' value=''>
+    <input type='hidden' name='nb_nights' value='-1'>
+    <!-- occupation fields -->
+    <input type="hidden" name="adulteresa" value='1'>
+    <input type="hidden" name="enfantresa" value=''>
+    <input type="hidden" name="childrenAges1" value=''>
+    <input type="hidden" name="AccessCode" value=''>
+    <div id="booking_form" class="clearfix">
+      <div class="booking-tab  arriving-tab bf_item">
+        <label>Check in</label>
+        <div class="quickbook-form-tab">
+
+          <div class="date">28</div>
+          <div class="month_year">
+            <div class="month">09</div>
+            <div class="year">2024</div>
+          </div>
+          <div class="calendar arrival">
+            <div class="dp"></div>
+          </div>
+        </div>
+      </div>
+      <div class="booking-tab departing-tab bf_item">
+        <label>Check out</label>
+        <div class="quickbook-form-tab">
+          <div class="date">29</div>
+          <div class="month_year">
+            <div class="month">09</div>
+            <div class="year">2024</div>
+          </div>
+          <div class="calendar departure">
+            <div class="dp"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-check_in ">
+        <label class="bf_check-in" for="check-in"></label>
+        <!-- CHECK IN DATEPICKER -->
+        <input type="text" id="check-in" class="date-picker" readonly="true"/>
+      </div>
+
+      <div class="section-check_out">
+        <label class="bf_check-out" for="check-out"></label>
+        <input type="text" id="check-out" class="date-picker" readonly="true"/>
+      </div>
+
+      <div class="guest_container">
+        <label>Number of guest</label>
+        <div class="wrap">
+          <div class="section-nb_adults bf_item">
+            <label for="adulteresa" class="bf_nb-adults">Adults</label>
+                        <div class="fakeSelect" data-name="adulteresa" data-default="1">
+              <span class="currentValue trigger">1 <span class="txt">Adult</span></span>
+              <div class="itemsHolder" style="display: none;">
+                <ul class="first">
+                  <li class="hotel_element selectable" data-value="1">1<span class="txt"> Adult</span></li><li class="hotel_element selectable" data-value="2">2<span class="txt"> Adults</span></li><li class="hotel_element selectable" data-value="3">3<span class="txt"> Adults</span></li><li class="hotel_element selectable" data-value="4">4<span class="txt"> Adults</span></li>                </ul>
+              </div>
+            </div>
+          </div>
+                    <div class="section-nb_children bf_item">
+            <label for="" class="bf_nb-children">Children</label>
+            <div class="fakeSelect" data-class="bf_select-children" data-name="enfantresa"
+                 data-default="0">
+              <span class="currentValue trigger">0 <span class="txt">Children</span></span>
+              <div class="itemsHolder" style="display: none;">
+                <ul class="first">
+                  <li class="hotel_element selectable" data-value="0">0<span class="txt"> Children</span></li><li class="hotel_element selectable" data-value="1">1<span class="txt"> Child</span></li><li class="hotel_element selectable" data-value="2">2<span class="txt"> Children</span></li>                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="promo_code bf_item">
+        <label>Promo code</label>
+        <input id="iata_code" type="text" placeholder="&hellip;">
+      </div>
+      <div class="section-submit_wrap bf_item">
+        <input name='B1' id="bf_submit" type='button' value='Book now'
+               onclick='hhotelDispoprice(this.form);'>
+      </div>
+    </div>
+  </form>
+</div>
+<!-- idForm -->
+
+</section><!-- Anchor Menu START --><!-- Wrong or Missing id block for anchor_menu. It should be anchor-menu-1--><div id="anchors_wrap" class=" de_block de_block_anchor_menu after_booking_form before_main_content ">
+  <div id="anchors">
+    <div class="container">
+      <a class="arrow prev" href="javascript:;"><span class="icon"></span><span>Prev</span></a>
+      <div class="wrap">
+        <a class='label' href='javascript:;' data-scroll='main-content-1'><span>Hotel</span></a><a class='label' href='javascript:;' data-scroll='post-preview-1'><span>Rooms</span></a><a class='label' href='javascript:;' data-scroll='additional-content-1'><span>Restauration</span></a><a class='label' href='javascript:;' data-scroll='additional-content-repeater-1'><span>Activities</span></a><a class='label' href='javascript:;' data-scroll='additional-content-2'><span>Contact</span></a><a class='label' href='javascript:;' data-scroll='gallery-1'><span>Photos</span></a><a class='label' href='javascript:;' data-scroll='map-1'><span>Location</span></a></div>
+      <a class="arrow next" href="javascript:;"><span>Next</span></a>
+    </div>
+  </div>
+</div>
+<!-- Main Content START -->
+<main id="main-content-1" role="main" class=" de_block de_block_main_content after_anchor_menu before_popup main section  ">
+  <div class="">
+    <div class="container collapsibleContent_wrap content_wrap">
+                  <h1 class="the_title">Hôtel Capucines</h1>
+      <h2 class="the_subtitle">Your hotel at the gates of Saint Tropez</h2><div class="featured_img lazy" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2023/05/DSC_3499-HDR.jpg"></div><div class="the_content"><p>Located at the doors of Saint-Tropez, the Capucines hotel is a charming establishment ideally situated in Gassin and offering a breathtaking view of the Mediterranean Sea. Nestled in a green setting and just a few steps from the white sandy beaches, this little haven of peace invites you to enjoy the most pleasant of stays. Stroll on the terrace, dream by the swimming pool, relax in the shade of the pine trees&#8230; everything is here for a timeless break. In addition to its 24 rooms, the Hôtel Capucines boasts a sunny terrace where you can sip a cocktail by the pool. Book your stay at the Hotel Capucines now to enjoy a peaceful break on the Côte d&#8217;Azur.</p>
+<p><em>We are unable to accommodate people with reduced mobility. Thank you for your understanding.<br />
+Pets are not allowed in the hotel.<br />
+Our hotel offers free parking, subject to availability.</em></p>
+</div>    </div>
+
+  </div>
+</main>
+<!-- Pop Up START --><!-- [EMPTY] Block popup-1 --><!-- Chambres START -->
+  <section id="post-preview-1" class=" de_block de_block_post_preview after_popup before_additional_content section children_section   grid">
+    <div class="container">
+              <div class="content_container">
+                      <h2 class="the_title"> Our rooms</h2>
+                                <h3 class="the_subtitle"> Choose your room and feel at home</h3>
+                                <div class="the_content ">
+              <p>This charming hotel offers spacious and elegant rooms equipped with all modern comforts to ensure an unforgettable stay. Bright and spacious, the rooms at the Hotel Capucines offer relaxation and rest. You will find a refined decor, high quality bedding and all the facilities you need for your well-being. The little extra: All rooms have a terrace or a balcony to enjoy the outside world in total discretion.</p>
+            </div>
+                  </div>
+            
+        <div class="grid_container external_container">
+          
+<div class="item_wrap item_wrap_0 prev_visible full_portrait" data-link="show_64_0">
+  <div class="item">
+    <div class="thumb_wrap">
+      <a class="thumb lazy  show_inline_preview" href="javascript:;" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_chambre-classique-1.jpg"></a>
+    </div>
+    
+			<div id="room_price_64"  class="offers_container " data-websdk="Offers"></div>
+			<script type="text/javascript">
+				websdk_config=(typeof websdk_config === "undefined" ? {} : websdk_config);
+				websdk_config["room_price_64"] = {"baseHost":"websdk.fastbooking-services.com","_authCode":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJib29raW5nRW5naW5lUmVmZXJlbmNlIjoiSktOSiIsImhvdGVsSWQiOiIyODQ4OCIsImdyb3VwSWQiOiIxMTUxMiIsInJlZmVyZW5jZVJhdGVDb2RlIjoiUkFDS1BSSSIsImRpc3BsYXlOYW1lIjoiSG90ZWwtbGVzLUNhcHVjaW5lcyIsIm5iZiI6MTY4MDcwMjUwNSwiZXhwIjoyNTM0MDIzMDA4MDAsImlhdCI6MTY4MDcwMjUwNSwiaXNzIjoiQXZhaWxwcm8gQVBJIE1hbmFnZXIiLCJhdWQiOiJkLWVkZ2UifQ.uOPO7A-7qq9m86M5u87CGZb0GzSr69WkrQ-_E91miYeOeELnXaMUUL-oEIpACk5AuA-8rzxxIhqSifwb0m8B-w","params":{"locale":"en_GB","property":"JKNJ-28488","currency":"EUR","minAdults":"1","mcmEnable":false,"output":"jsonp","orderBy":"pricePerNight","roomRestriction":"138205"},"sorting":[""],"number":1};
+            </script>
+		      <script id="room_price_64_template" type="text/x-mustache-template">
+        {{#rates}}
+        <a class="price_wrap eee" href="javascript:;" onclick="{{best.bookLink.onclick}}">
+          <span class="label">From</span>
+          <span class="price"><span class="amount">{{best.pricePerNightSplitted.thousands}}</span> <span class="currency">{{{best.currency_html}}}</span></span>
+        </a>
+        {{/rates}}
+      </script>
+        <div class="content_wrap">
+      <div class="content">
+        <a class="title  show_inline_preview" href="javascript:;">Classic room</a>
+        <div class="description">Classic, cosy and comfortable room with 1 double bed or 2 twin beds. This room for 2  has a private&hellip;</div>        <div class="btns_wrap">
+          
+			<div id="room_button_64"  class="offers_container " data-websdk="Offers"></div>
+			<script type="text/javascript">
+				websdk_config=(typeof websdk_config === "undefined" ? {} : websdk_config);
+				websdk_config["room_button_64"] = {"baseHost":"websdk.fastbooking-services.com","_authCode":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJib29raW5nRW5naW5lUmVmZXJlbmNlIjoiSktOSiIsImhvdGVsSWQiOiIyODQ4OCIsImdyb3VwSWQiOiIxMTUxMiIsInJlZmVyZW5jZVJhdGVDb2RlIjoiUkFDS1BSSSIsImRpc3BsYXlOYW1lIjoiSG90ZWwtbGVzLUNhcHVjaW5lcyIsIm5iZiI6MTY4MDcwMjUwNSwiZXhwIjoyNTM0MDIzMDA4MDAsImlhdCI6MTY4MDcwMjUwNSwiaXNzIjoiQXZhaWxwcm8gQVBJIE1hbmFnZXIiLCJhdWQiOiJkLWVkZ2UifQ.uOPO7A-7qq9m86M5u87CGZb0GzSr69WkrQ-_E91miYeOeELnXaMUUL-oEIpACk5AuA-8rzxxIhqSifwb0m8B-w","params":{"locale":"en_GB","property":"JKNJ-28488","currency":"EUR","minAdults":"1","mcmEnable":false,"output":"jsonp","orderBy":"pricePerNight","roomRestriction":"138205"},"sorting":[""],"number":1};
+            </script>
+		              <script id="room_button_64_template"
+                      type="text/x-mustache-template">
+                {{#rates}}
+                <span class="btn btnCta"><a href="javascript:;" onclick="{{best.bookLink.onclick}}">Book now</a></span>
+                {{/rates}}
+              </script>
+                      <span class="info read_more show_inline_preview"><a href="javascript:;">Read more</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="show_64_0" style="display: none">
+    <div class="mega_details_wrapper">
+        <div class="mega_details_inner_wrapper">
+            <div class="mega_details_content">
+                <a href="javascript:;" class="close"></a>
+                <div class="mega_details">
+                    <h4 class="the_title">Classic room</h4>
+                                            <div class="btns_wrap">
+                            
+			<div id="room_book_64"  class="offers_container " data-websdk="Offers"></div>
+			<script type="text/javascript">
+				websdk_config=(typeof websdk_config === "undefined" ? {} : websdk_config);
+				websdk_config["room_book_64"] = {"baseHost":"websdk.fastbooking-services.com","_authCode":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJib29raW5nRW5naW5lUmVmZXJlbmNlIjoiSktOSiIsImhvdGVsSWQiOiIyODQ4OCIsImdyb3VwSWQiOiIxMTUxMiIsInJlZmVyZW5jZVJhdGVDb2RlIjoiUkFDS1BSSSIsImRpc3BsYXlOYW1lIjoiSG90ZWwtbGVzLUNhcHVjaW5lcyIsIm5iZiI6MTY4MDcwMjUwNSwiZXhwIjoyNTM0MDIzMDA4MDAsImlhdCI6MTY4MDcwMjUwNSwiaXNzIjoiQXZhaWxwcm8gQVBJIE1hbmFnZXIiLCJhdWQiOiJkLWVkZ2UifQ.uOPO7A-7qq9m86M5u87CGZb0GzSr69WkrQ-_E91miYeOeELnXaMUUL-oEIpACk5AuA-8rzxxIhqSifwb0m8B-w","params":{"locale":"en_GB","property":"JKNJ-28488","currency":"EUR","minAdults":"1","mcmEnable":false,"output":"jsonp","orderBy":"pricePerNight","roomRestriction":"138205"},"sorting":[""],"number":1};
+            </script>
+		                            <script id="room_book_64_template" type="text/x-mustache-template">
+                                {{#rates}}
+                                <div class="btns_wrap">
+                                <span class="btn btnCta">
+                                        <a href="javascript:;"
+                                           onclick="{{best.bookLink.onclick}}">Book now</a>
+                                    </span>
+                                </div>
+                                {{/rates}}
+                            </script>
+                        </div>
+                    <div class="the_content"><p>Classic, cosy and comfortable room with 1 double bed or 2 twin beds. This room for 2  has a private bathroom with shower. All rooms offer a private terrace or balcony.</p>
+<p>Equipment included:</p>
+<ul>
+<li>safe deposit box</li>
+<li>flat screen TV</li>
+<li>private terrace or balcony with armchairs and table</li>
+<li>mini-bar fridge</li>
+<li>hairdryer</li>
+</ul>
+</div>
+
+                </div>
+                <div class="thumb" style="background-image: url('https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_chambre-classique-1.jpg')"></div>            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="item_wrap item_wrap_1" data-link="show_66_1">
+  <div class="item">
+    <div class="thumb_wrap">
+      <a class="thumb lazy  show_inline_preview" href="javascript:;" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_chambre-deluxe-1.jpg"></a>
+    </div>
+    
+			<div id="room_price_66"  class="offers_container " data-websdk="Offers"></div>
+			<script type="text/javascript">
+				websdk_config=(typeof websdk_config === "undefined" ? {} : websdk_config);
+				websdk_config["room_price_66"] = {"baseHost":"websdk.fastbooking-services.com","_authCode":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJib29raW5nRW5naW5lUmVmZXJlbmNlIjoiSktOSiIsImhvdGVsSWQiOiIyODQ4OCIsImdyb3VwSWQiOiIxMTUxMiIsInJlZmVyZW5jZVJhdGVDb2RlIjoiUkFDS1BSSSIsImRpc3BsYXlOYW1lIjoiSG90ZWwtbGVzLUNhcHVjaW5lcyIsIm5iZiI6MTY4MDcwMjUwNSwiZXhwIjoyNTM0MDIzMDA4MDAsImlhdCI6MTY4MDcwMjUwNSwiaXNzIjoiQXZhaWxwcm8gQVBJIE1hbmFnZXIiLCJhdWQiOiJkLWVkZ2UifQ.uOPO7A-7qq9m86M5u87CGZb0GzSr69WkrQ-_E91miYeOeELnXaMUUL-oEIpACk5AuA-8rzxxIhqSifwb0m8B-w","params":{"locale":"en_GB","property":"JKNJ-28488","currency":"EUR","minAdults":"1","mcmEnable":false,"output":"jsonp","orderBy":"pricePerNight","roomRestriction":"138206"},"sorting":[""],"number":1};
+            </script>
+		      <script id="room_price_66_template" type="text/x-mustache-template">
+        {{#rates}}
+        <a class="price_wrap eee" href="javascript:;" onclick="{{best.bookLink.onclick}}">
+          <span class="label">From</span>
+          <span class="price"><span class="amount">{{best.pricePerNightSplitted.thousands}}</span> <span class="currency">{{{best.currency_html}}}</span></span>
+        </a>
+        {{/rates}}
+      </script>
+        <div class="content_wrap">
+      <div class="content">
+        <a class="title  show_inline_preview" href="javascript:;">Deluxe room</a>
+        <div class="description">Spacious and bright room with 1 double bed or 2 twin beds. This room for two has a private bathroom&hellip;</div>        <div class="btns_wrap">
+          
+			<div id="room_button_66"  class="offers_container " data-websdk="Offers"></div>
+			<script type="text/javascript">
+				websdk_config=(typeof websdk_config === "undefined" ? {} : websdk_config);
+				websdk_config["room_button_66"] = {"baseHost":"websdk.fastbooking-services.com","_authCode":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJib29raW5nRW5naW5lUmVmZXJlbmNlIjoiSktOSiIsImhvdGVsSWQiOiIyODQ4OCIsImdyb3VwSWQiOiIxMTUxMiIsInJlZmVyZW5jZVJhdGVDb2RlIjoiUkFDS1BSSSIsImRpc3BsYXlOYW1lIjoiSG90ZWwtbGVzLUNhcHVjaW5lcyIsIm5iZiI6MTY4MDcwMjUwNSwiZXhwIjoyNTM0MDIzMDA4MDAsImlhdCI6MTY4MDcwMjUwNSwiaXNzIjoiQXZhaWxwcm8gQVBJIE1hbmFnZXIiLCJhdWQiOiJkLWVkZ2UifQ.uOPO7A-7qq9m86M5u87CGZb0GzSr69WkrQ-_E91miYeOeELnXaMUUL-oEIpACk5AuA-8rzxxIhqSifwb0m8B-w","params":{"locale":"en_GB","property":"JKNJ-28488","currency":"EUR","minAdults":"1","mcmEnable":false,"output":"jsonp","orderBy":"pricePerNight","roomRestriction":"138206"},"sorting":[""],"number":1};
+            </script>
+		              <script id="room_button_66_template"
+                      type="text/x-mustache-template">
+                {{#rates}}
+                <span class="btn btnCta"><a href="javascript:;" onclick="{{best.bookLink.onclick}}">Book now</a></span>
+                {{/rates}}
+              </script>
+                      <span class="info read_more show_inline_preview"><a href="javascript:;">Read more</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="show_66_1" style="display: none">
+    <div class="mega_details_wrapper">
+        <div class="mega_details_inner_wrapper">
+            <div class="mega_details_content">
+                <a href="javascript:;" class="close"></a>
+                <div class="mega_details">
+                    <h4 class="the_title">Deluxe room</h4>
+                                            <div class="btns_wrap">
+                            
+			<div id="room_book_66"  class="offers_container " data-websdk="Offers"></div>
+			<script type="text/javascript">
+				websdk_config=(typeof websdk_config === "undefined" ? {} : websdk_config);
+				websdk_config["room_book_66"] = {"baseHost":"websdk.fastbooking-services.com","_authCode":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJib29raW5nRW5naW5lUmVmZXJlbmNlIjoiSktOSiIsImhvdGVsSWQiOiIyODQ4OCIsImdyb3VwSWQiOiIxMTUxMiIsInJlZmVyZW5jZVJhdGVDb2RlIjoiUkFDS1BSSSIsImRpc3BsYXlOYW1lIjoiSG90ZWwtbGVzLUNhcHVjaW5lcyIsIm5iZiI6MTY4MDcwMjUwNSwiZXhwIjoyNTM0MDIzMDA4MDAsImlhdCI6MTY4MDcwMjUwNSwiaXNzIjoiQXZhaWxwcm8gQVBJIE1hbmFnZXIiLCJhdWQiOiJkLWVkZ2UifQ.uOPO7A-7qq9m86M5u87CGZb0GzSr69WkrQ-_E91miYeOeELnXaMUUL-oEIpACk5AuA-8rzxxIhqSifwb0m8B-w","params":{"locale":"en_GB","property":"JKNJ-28488","currency":"EUR","minAdults":"1","mcmEnable":false,"output":"jsonp","orderBy":"pricePerNight","roomRestriction":"138206"},"sorting":[""],"number":1};
+            </script>
+		                            <script id="room_book_66_template" type="text/x-mustache-template">
+                                {{#rates}}
+                                <div class="btns_wrap">
+                                <span class="btn btnCta">
+                                        <a href="javascript:;"
+                                           onclick="{{best.bookLink.onclick}}">Book now</a>
+                                    </span>
+                                </div>
+                                {{/rates}}
+                            </script>
+                        </div>
+                    <div class="the_content"><p>Spacious and bright room with 1 double bed or 2 twin beds. This room for two has a private bathroom with shower. All rooms offer a private terrace or a balcony.</p>
+<p>Equipment included:</p>
+<ul>
+<li>safe deposit box</li>
+<li>flat screen television</li>
+<li>fridge minibar</li>
+<li>hair dryer</li>
+<li>armchairs and table</li>
+</ul>
+</div>
+
+                </div>
+                <div class="thumb" style="background-image: url('https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_chambre-deluxe-1.jpg')"></div>            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="item_wrap item_wrap_2" data-link="show_67_2">
+  <div class="item">
+    <div class="thumb_wrap">
+      <a class="thumb lazy  show_inline_preview" href="javascript:;" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_suite-1.jpg"></a>
+    </div>
+    
+			<div id="room_price_67"  class="offers_container " data-websdk="Offers"></div>
+			<script type="text/javascript">
+				websdk_config=(typeof websdk_config === "undefined" ? {} : websdk_config);
+				websdk_config["room_price_67"] = {"baseHost":"websdk.fastbooking-services.com","_authCode":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJib29raW5nRW5naW5lUmVmZXJlbmNlIjoiSktOSiIsImhvdGVsSWQiOiIyODQ4OCIsImdyb3VwSWQiOiIxMTUxMiIsInJlZmVyZW5jZVJhdGVDb2RlIjoiUkFDS1BSSSIsImRpc3BsYXlOYW1lIjoiSG90ZWwtbGVzLUNhcHVjaW5lcyIsIm5iZiI6MTY4MDcwMjUwNSwiZXhwIjoyNTM0MDIzMDA4MDAsImlhdCI6MTY4MDcwMjUwNSwiaXNzIjoiQXZhaWxwcm8gQVBJIE1hbmFnZXIiLCJhdWQiOiJkLWVkZ2UifQ.uOPO7A-7qq9m86M5u87CGZb0GzSr69WkrQ-_E91miYeOeELnXaMUUL-oEIpACk5AuA-8rzxxIhqSifwb0m8B-w","params":{"locale":"en_GB","property":"JKNJ-28488","currency":"EUR","minAdults":"1","mcmEnable":false,"output":"jsonp","orderBy":"pricePerNight","roomRestriction":"138207"},"sorting":[""],"number":1};
+            </script>
+		      <script id="room_price_67_template" type="text/x-mustache-template">
+        {{#rates}}
+        <a class="price_wrap eee" href="javascript:;" onclick="{{best.bookLink.onclick}}">
+          <span class="label">From</span>
+          <span class="price"><span class="amount">{{best.pricePerNightSplitted.thousands}}</span> <span class="currency">{{{best.currency_html}}}</span></span>
+        </a>
+        {{/rates}}
+      </script>
+        <div class="content_wrap">
+      <div class="content">
+        <a class="title  show_inline_preview" href="javascript:;">Deluxe suite</a>
+        <div class="description">Large, bright room with double bed and sofa bed for 1 to 3 people. This suite has a private bathroom&hellip;</div>        <div class="btns_wrap">
+          
+			<div id="room_button_67"  class="offers_container " data-websdk="Offers"></div>
+			<script type="text/javascript">
+				websdk_config=(typeof websdk_config === "undefined" ? {} : websdk_config);
+				websdk_config["room_button_67"] = {"baseHost":"websdk.fastbooking-services.com","_authCode":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJib29raW5nRW5naW5lUmVmZXJlbmNlIjoiSktOSiIsImhvdGVsSWQiOiIyODQ4OCIsImdyb3VwSWQiOiIxMTUxMiIsInJlZmVyZW5jZVJhdGVDb2RlIjoiUkFDS1BSSSIsImRpc3BsYXlOYW1lIjoiSG90ZWwtbGVzLUNhcHVjaW5lcyIsIm5iZiI6MTY4MDcwMjUwNSwiZXhwIjoyNTM0MDIzMDA4MDAsImlhdCI6MTY4MDcwMjUwNSwiaXNzIjoiQXZhaWxwcm8gQVBJIE1hbmFnZXIiLCJhdWQiOiJkLWVkZ2UifQ.uOPO7A-7qq9m86M5u87CGZb0GzSr69WkrQ-_E91miYeOeELnXaMUUL-oEIpACk5AuA-8rzxxIhqSifwb0m8B-w","params":{"locale":"en_GB","property":"JKNJ-28488","currency":"EUR","minAdults":"1","mcmEnable":false,"output":"jsonp","orderBy":"pricePerNight","roomRestriction":"138207"},"sorting":[""],"number":1};
+            </script>
+		              <script id="room_button_67_template"
+                      type="text/x-mustache-template">
+                {{#rates}}
+                <span class="btn btnCta"><a href="javascript:;" onclick="{{best.bookLink.onclick}}">Book now</a></span>
+                {{/rates}}
+              </script>
+                      <span class="info read_more show_inline_preview"><a href="javascript:;">Read more</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="show_67_2" style="display: none">
+    <div class="mega_details_wrapper">
+        <div class="mega_details_inner_wrapper">
+            <div class="mega_details_content">
+                <a href="javascript:;" class="close"></a>
+                <div class="mega_details">
+                    <h4 class="the_title">Deluxe suite</h4>
+                                            <div class="btns_wrap">
+                            
+			<div id="room_book_67"  class="offers_container " data-websdk="Offers"></div>
+			<script type="text/javascript">
+				websdk_config=(typeof websdk_config === "undefined" ? {} : websdk_config);
+				websdk_config["room_book_67"] = {"baseHost":"websdk.fastbooking-services.com","_authCode":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJib29raW5nRW5naW5lUmVmZXJlbmNlIjoiSktOSiIsImhvdGVsSWQiOiIyODQ4OCIsImdyb3VwSWQiOiIxMTUxMiIsInJlZmVyZW5jZVJhdGVDb2RlIjoiUkFDS1BSSSIsImRpc3BsYXlOYW1lIjoiSG90ZWwtbGVzLUNhcHVjaW5lcyIsIm5iZiI6MTY4MDcwMjUwNSwiZXhwIjoyNTM0MDIzMDA4MDAsImlhdCI6MTY4MDcwMjUwNSwiaXNzIjoiQXZhaWxwcm8gQVBJIE1hbmFnZXIiLCJhdWQiOiJkLWVkZ2UifQ.uOPO7A-7qq9m86M5u87CGZb0GzSr69WkrQ-_E91miYeOeELnXaMUUL-oEIpACk5AuA-8rzxxIhqSifwb0m8B-w","params":{"locale":"en_GB","property":"JKNJ-28488","currency":"EUR","minAdults":"1","mcmEnable":false,"output":"jsonp","orderBy":"pricePerNight","roomRestriction":"138207"},"sorting":[""],"number":1};
+            </script>
+		                            <script id="room_book_67_template" type="text/x-mustache-template">
+                                {{#rates}}
+                                <div class="btns_wrap">
+                                <span class="btn btnCta">
+                                        <a href="javascript:;"
+                                           onclick="{{best.bookLink.onclick}}">Book now</a>
+                                    </span>
+                                </div>
+                                {{/rates}}
+                            </script>
+                        </div>
+                    <div class="the_content"><p>Large, bright room with double bed and sofa bed for 1 to 3 people. This suite has a private bathroom with shower. All rooms have a private terrace or balcony. Ideal for enjoying your family!</p>
+<p>Equipment included:</p>
+<ul>
+<li>safe deposit box</li>
+<li>flat screen TV</li>
+<li>private terrace with armchairs and table</li>
+<li>fridge minibar</li>
+<li>hair dryer</li>
+</ul>
+</div>
+
+                </div>
+                <div class="thumb" style="background-image: url('https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_suite-1.jpg')"></div>            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="item_wrap item_wrap_3 half_desktop" data-link="show_68_3">
+  <div class="item">
+    <div class="thumb_wrap">
+      <a class="thumb lazy  show_inline_preview" href="javascript:;" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_suite-familiale-1.jpg"></a>
+    </div>
+    
+			<div id="room_price_68"  class="offers_container " data-websdk="Offers"></div>
+			<script type="text/javascript">
+				websdk_config=(typeof websdk_config === "undefined" ? {} : websdk_config);
+				websdk_config["room_price_68"] = {"baseHost":"websdk.fastbooking-services.com","_authCode":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJib29raW5nRW5naW5lUmVmZXJlbmNlIjoiSktOSiIsImhvdGVsSWQiOiIyODQ4OCIsImdyb3VwSWQiOiIxMTUxMiIsInJlZmVyZW5jZVJhdGVDb2RlIjoiUkFDS1BSSSIsImRpc3BsYXlOYW1lIjoiSG90ZWwtbGVzLUNhcHVjaW5lcyIsIm5iZiI6MTY4MDcwMjUwNSwiZXhwIjoyNTM0MDIzMDA4MDAsImlhdCI6MTY4MDcwMjUwNSwiaXNzIjoiQXZhaWxwcm8gQVBJIE1hbmFnZXIiLCJhdWQiOiJkLWVkZ2UifQ.uOPO7A-7qq9m86M5u87CGZb0GzSr69WkrQ-_E91miYeOeELnXaMUUL-oEIpACk5AuA-8rzxxIhqSifwb0m8B-w","params":{"locale":"en_GB","property":"JKNJ-28488","currency":"EUR","minAdults":"1","mcmEnable":false,"output":"jsonp","orderBy":"pricePerNight","roomRestriction":"138208"},"sorting":[""],"number":1};
+            </script>
+		      <script id="room_price_68_template" type="text/x-mustache-template">
+        {{#rates}}
+        <a class="price_wrap eee" href="javascript:;" onclick="{{best.bookLink.onclick}}">
+          <span class="label">From</span>
+          <span class="price"><span class="amount">{{best.pricePerNightSplitted.thousands}}</span> <span class="currency">{{{best.currency_html}}}</span></span>
+        </a>
+        {{/rates}}
+      </script>
+        <div class="content_wrap">
+      <div class="content">
+        <a class="title  show_inline_preview" href="javascript:;">Family suite</a>
+        <div class="description">Family suite with 2 separate bedrooms, 1 double bed and 2 twin beds. This suite has a private bathroom with&hellip;</div>        <div class="btns_wrap">
+          
+			<div id="room_button_68"  class="offers_container " data-websdk="Offers"></div>
+			<script type="text/javascript">
+				websdk_config=(typeof websdk_config === "undefined" ? {} : websdk_config);
+				websdk_config["room_button_68"] = {"baseHost":"websdk.fastbooking-services.com","_authCode":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJib29raW5nRW5naW5lUmVmZXJlbmNlIjoiSktOSiIsImhvdGVsSWQiOiIyODQ4OCIsImdyb3VwSWQiOiIxMTUxMiIsInJlZmVyZW5jZVJhdGVDb2RlIjoiUkFDS1BSSSIsImRpc3BsYXlOYW1lIjoiSG90ZWwtbGVzLUNhcHVjaW5lcyIsIm5iZiI6MTY4MDcwMjUwNSwiZXhwIjoyNTM0MDIzMDA4MDAsImlhdCI6MTY4MDcwMjUwNSwiaXNzIjoiQXZhaWxwcm8gQVBJIE1hbmFnZXIiLCJhdWQiOiJkLWVkZ2UifQ.uOPO7A-7qq9m86M5u87CGZb0GzSr69WkrQ-_E91miYeOeELnXaMUUL-oEIpACk5AuA-8rzxxIhqSifwb0m8B-w","params":{"locale":"en_GB","property":"JKNJ-28488","currency":"EUR","minAdults":"1","mcmEnable":false,"output":"jsonp","orderBy":"pricePerNight","roomRestriction":"138208"},"sorting":[""],"number":1};
+            </script>
+		              <script id="room_button_68_template"
+                      type="text/x-mustache-template">
+                {{#rates}}
+                <span class="btn btnCta"><a href="javascript:;" onclick="{{best.bookLink.onclick}}">Book now</a></span>
+                {{/rates}}
+              </script>
+                      <span class="info read_more show_inline_preview"><a href="javascript:;">Read more</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="show_68_3" style="display: none">
+    <div class="mega_details_wrapper">
+        <div class="mega_details_inner_wrapper">
+            <div class="mega_details_content">
+                <a href="javascript:;" class="close"></a>
+                <div class="mega_details">
+                    <h4 class="the_title">Family suite</h4>
+                                            <div class="btns_wrap">
+                            
+			<div id="room_book_68"  class="offers_container " data-websdk="Offers"></div>
+			<script type="text/javascript">
+				websdk_config=(typeof websdk_config === "undefined" ? {} : websdk_config);
+				websdk_config["room_book_68"] = {"baseHost":"websdk.fastbooking-services.com","_authCode":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJib29raW5nRW5naW5lUmVmZXJlbmNlIjoiSktOSiIsImhvdGVsSWQiOiIyODQ4OCIsImdyb3VwSWQiOiIxMTUxMiIsInJlZmVyZW5jZVJhdGVDb2RlIjoiUkFDS1BSSSIsImRpc3BsYXlOYW1lIjoiSG90ZWwtbGVzLUNhcHVjaW5lcyIsIm5iZiI6MTY4MDcwMjUwNSwiZXhwIjoyNTM0MDIzMDA4MDAsImlhdCI6MTY4MDcwMjUwNSwiaXNzIjoiQXZhaWxwcm8gQVBJIE1hbmFnZXIiLCJhdWQiOiJkLWVkZ2UifQ.uOPO7A-7qq9m86M5u87CGZb0GzSr69WkrQ-_E91miYeOeELnXaMUUL-oEIpACk5AuA-8rzxxIhqSifwb0m8B-w","params":{"locale":"en_GB","property":"JKNJ-28488","currency":"EUR","minAdults":"1","mcmEnable":false,"output":"jsonp","orderBy":"pricePerNight","roomRestriction":"138208"},"sorting":[""],"number":1};
+            </script>
+		                            <script id="room_book_68_template" type="text/x-mustache-template">
+                                {{#rates}}
+                                <div class="btns_wrap">
+                                <span class="btn btnCta">
+                                        <a href="javascript:;"
+                                           onclick="{{best.bookLink.onclick}}">Book now</a>
+                                    </span>
+                                </div>
+                                {{/rates}}
+                            </script>
+                        </div>
+                    <div class="the_content"><p>Family suite with 2 separate bedrooms, 1 double bed and 2 twin beds. This suite has a private bathroom with shower. All rooms offer a private terrace or balcony. Accommodating from 1 to 4 people, they invite you to enjoy the sweetness of family life in the privileged setting of Saint-Tropez.</p>
+<p>Equipment included:</p>
+<ul>
+<li>safe deposit box</li>
+<li>flat screen television</li>
+<li>private terrace with armchairs and table</li>
+<li>fridge minibar</li>
+<li>hair dryer</li>
+</ul>
+</div>
+
+                </div>
+                <div class="thumb" style="background-image: url('https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_suite-familiale-1.jpg')"></div>            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="item_wrap item_wrap_4 half_desktop" data-link="show_62_4">
+  <div class="item">
+    <div class="thumb_wrap">
+      <a class="thumb lazy  show_inline_preview" href="javascript:;" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-saint-tropez__6830-HDR.jpg"></a>
+    </div>
+    
+			<div id="room_price_62"  class="offers_container " data-websdk="Offers"></div>
+			<script type="text/javascript">
+				websdk_config=(typeof websdk_config === "undefined" ? {} : websdk_config);
+				websdk_config["room_price_62"] = {"baseHost":"websdk.fastbooking-services.com","_authCode":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJib29raW5nRW5naW5lUmVmZXJlbmNlIjoiSktOSiIsImhvdGVsSWQiOiIyODQ4OCIsImdyb3VwSWQiOiIxMTUxMiIsInJlZmVyZW5jZVJhdGVDb2RlIjoiUkFDS1BSSSIsImRpc3BsYXlOYW1lIjoiSG90ZWwtbGVzLUNhcHVjaW5lcyIsIm5iZiI6MTY4MDcwMjUwNSwiZXhwIjoyNTM0MDIzMDA4MDAsImlhdCI6MTY4MDcwMjUwNSwiaXNzIjoiQXZhaWxwcm8gQVBJIE1hbmFnZXIiLCJhdWQiOiJkLWVkZ2UifQ.uOPO7A-7qq9m86M5u87CGZb0GzSr69WkrQ-_E91miYeOeELnXaMUUL-oEIpACk5AuA-8rzxxIhqSifwb0m8B-w","params":{"locale":"en_GB","property":"JKNJ-28488","currency":"EUR","minAdults":"1","mcmEnable":false,"output":"jsonp","orderBy":"pricePerNight","roomRestriction":"138204"},"sorting":[""],"number":1};
+            </script>
+		      <script id="room_price_62_template" type="text/x-mustache-template">
+        {{#rates}}
+        <a class="price_wrap eee" href="javascript:;" onclick="{{best.bookLink.onclick}}">
+          <span class="label">From</span>
+          <span class="price"><span class="amount">{{best.pricePerNightSplitted.thousands}}</span> <span class="currency">{{{best.currency_html}}}</span></span>
+        </a>
+        {{/rates}}
+      </script>
+        <div class="content_wrap">
+      <div class="content">
+        <a class="title  show_inline_preview" href="javascript:;">Single room</a>
+        <div class="description">NB: This room is not part of the 4-star category.
+
+Our comfortable, practical single room is ideal for solo travelers. It&hellip;</div>        <div class="btns_wrap">
+          
+			<div id="room_button_62"  class="offers_container " data-websdk="Offers"></div>
+			<script type="text/javascript">
+				websdk_config=(typeof websdk_config === "undefined" ? {} : websdk_config);
+				websdk_config["room_button_62"] = {"baseHost":"websdk.fastbooking-services.com","_authCode":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJib29raW5nRW5naW5lUmVmZXJlbmNlIjoiSktOSiIsImhvdGVsSWQiOiIyODQ4OCIsImdyb3VwSWQiOiIxMTUxMiIsInJlZmVyZW5jZVJhdGVDb2RlIjoiUkFDS1BSSSIsImRpc3BsYXlOYW1lIjoiSG90ZWwtbGVzLUNhcHVjaW5lcyIsIm5iZiI6MTY4MDcwMjUwNSwiZXhwIjoyNTM0MDIzMDA4MDAsImlhdCI6MTY4MDcwMjUwNSwiaXNzIjoiQXZhaWxwcm8gQVBJIE1hbmFnZXIiLCJhdWQiOiJkLWVkZ2UifQ.uOPO7A-7qq9m86M5u87CGZb0GzSr69WkrQ-_E91miYeOeELnXaMUUL-oEIpACk5AuA-8rzxxIhqSifwb0m8B-w","params":{"locale":"en_GB","property":"JKNJ-28488","currency":"EUR","minAdults":"1","mcmEnable":false,"output":"jsonp","orderBy":"pricePerNight","roomRestriction":"138204"},"sorting":[""],"number":1};
+            </script>
+		              <script id="room_button_62_template"
+                      type="text/x-mustache-template">
+                {{#rates}}
+                <span class="btn btnCta"><a href="javascript:;" onclick="{{best.bookLink.onclick}}">Book now</a></span>
+                {{/rates}}
+              </script>
+                      <span class="info read_more show_inline_preview"><a href="javascript:;">Read more</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="show_62_4" style="display: none">
+    <div class="mega_details_wrapper">
+        <div class="mega_details_inner_wrapper">
+            <div class="mega_details_content">
+                <a href="javascript:;" class="close"></a>
+                <div class="mega_details">
+                    <h4 class="the_title">Single room</h4>
+                                            <div class="btns_wrap">
+                            
+			<div id="room_book_62"  class="offers_container " data-websdk="Offers"></div>
+			<script type="text/javascript">
+				websdk_config=(typeof websdk_config === "undefined" ? {} : websdk_config);
+				websdk_config["room_book_62"] = {"baseHost":"websdk.fastbooking-services.com","_authCode":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJib29raW5nRW5naW5lUmVmZXJlbmNlIjoiSktOSiIsImhvdGVsSWQiOiIyODQ4OCIsImdyb3VwSWQiOiIxMTUxMiIsInJlZmVyZW5jZVJhdGVDb2RlIjoiUkFDS1BSSSIsImRpc3BsYXlOYW1lIjoiSG90ZWwtbGVzLUNhcHVjaW5lcyIsIm5iZiI6MTY4MDcwMjUwNSwiZXhwIjoyNTM0MDIzMDA4MDAsImlhdCI6MTY4MDcwMjUwNSwiaXNzIjoiQXZhaWxwcm8gQVBJIE1hbmFnZXIiLCJhdWQiOiJkLWVkZ2UifQ.uOPO7A-7qq9m86M5u87CGZb0GzSr69WkrQ-_E91miYeOeELnXaMUUL-oEIpACk5AuA-8rzxxIhqSifwb0m8B-w","params":{"locale":"en_GB","property":"JKNJ-28488","currency":"EUR","minAdults":"1","mcmEnable":false,"output":"jsonp","orderBy":"pricePerNight","roomRestriction":"138204"},"sorting":[""],"number":1};
+            </script>
+		                            <script id="room_book_62_template" type="text/x-mustache-template">
+                                {{#rates}}
+                                <div class="btns_wrap">
+                                <span class="btn btnCta">
+                                        <a href="javascript:;"
+                                           onclick="{{best.bookLink.onclick}}">Book now</a>
+                                    </span>
+                                </div>
+                                {{/rates}}
+                            </script>
+                        </div>
+                    <div class="the_content"><p><em>NB: This room is not part of the 4-star category.</em></p>
+<p>Our comfortable, practical single room is ideal for solo travelers. It features a bathroom with shower. Although this room category does not benefit from a private terrace, it is equipped with all the amenities you need for a pleasant stay: a safe, flat-screen TV, minibar fridge and hairdryer.</p>
+</div>
+
+                </div>
+                <div class="thumb" style="background-image: url('https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-saint-tropez__6830-HDR.jpg')"></div>            </div>
+        </div>
+    </div>
+</div>
+</div>
+        </div>
+          </div>
+      </section>
+<!-- Services START -->
+  <section id="additional-content-1" class=" de_block de_block_additional_content after_post_preview before_offers additional_content_section section image_left">
+    <div class="container container_image container_large">
+            <div class="wrap">
+        <div class="thumb_wrap">
+  <div class="thumb lazy" data-fancybox data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-saint-tropez-petit-dejeuner_18.jpg"></div>
+</div>        <div class="content_container">
+          <div class="content">
+                          <h2 class="title"> RESTAURATION</h2>
+                                                  <div class="the_content container_large">
+                <h3 style="color: white">Breakfast</h3>
+<p>
+    Start your day with our delicious breakfast buffet, available from 7:30 AM to 10:30 AM. Enjoy a complete buffet featuring quality products from local producers, either in our newly renovated breakfast room or on the large terrace by the pool. Price: €19 for adults, €10 for children under 12.
+</p>
+<h3 style="color: white">Bar</h3>
+<p>
+    Our outdoor bar welcomes you from 11:00 AM to 1:00 AM non-stop. Enjoy refreshing cocktails while soaking in the relaxed atmosphere. Open to the outside, it is the perfect place to unwind at any time of the day.
+</p>
+<h3 style="color: white">Snacks</h3>
+<p>
+    For a small bite, our light food offerings are available in the afternoon. In summer, savor our fresh plates such as tomato-mozzarella, ham-melon, or charcuterie-cheese, served from noon to 9:00 PM. Enjoy these snacks while relaxing by the pool.</p>
+              </div>
+                      </div>
+        </div>
+
+      </div>
+          </div>
+  </section>
+
+
+
+
+<!-- Offers START -->
+<section id="offers-1" class=" de_block de_block_offers after_additional_content before_additional_content_repeater section offers_section offers_carousel">
+    <script>
+        var rates_to_hide =  "493936,493930,493935,493937";
+    </script>
+            <div class="container">
+            <div class="content_container">
+                                    <h2 class="section_title"> Special Offers</h2>
+                                                            </div>
+        </div>
+        <div id="offers_page">
+        <div class="container">
+            <div class="loading">
+                <div class="offers_carousel">
+                    
+			<div id="offers_list"  class="offers_container " data-websdk="Offers"></div>
+			<script type="text/javascript">
+				websdk_config=(typeof websdk_config === "undefined" ? {} : websdk_config);
+				websdk_config["offers_list"] = {"baseHost":"websdk.fastbooking-services.com","_authCode":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJib29raW5nRW5naW5lUmVmZXJlbmNlIjoiSktOSiIsImhvdGVsSWQiOiIyODQ4OCIsImdyb3VwSWQiOiIxMTUxMiIsInJlZmVyZW5jZVJhdGVDb2RlIjoiUkFDS1BSSSIsImRpc3BsYXlOYW1lIjoiSG90ZWwtbGVzLUNhcHVjaW5lcyIsIm5iZiI6MTY4MDcwMjUwNSwiZXhwIjoyNTM0MDIzMDA4MDAsImlhdCI6MTY4MDcwMjUwNSwiaXNzIjoiQXZhaWxwcm8gQVBJIE1hbmFnZXIiLCJhdWQiOiJkLWVkZ2UifQ.uOPO7A-7qq9m86M5u87CGZb0GzSr69WkrQ-_E91miYeOeELnXaMUUL-oEIpACk5AuA-8rzxxIhqSifwb0m8B-w","params":{"locale":"en_GB","property":"JKNJ-28488","currency":"EUR","minAdults":"1","mcmEnable":false,"output":"jsonp","orderBy":"pricePerNight"},"sorting":[""],"number":"9999"};
+            </script>
+		                    <script id="offers_list_template" class=""
+                            type="text/x-mustache-template">
+                        {{#rates}}
+                        <div class="offer_wrap item_wrap clearfix {{rate.class}}">
+                            <div class="offer item">
+    <div class="thumb_wrap">
+        <a class="thumb lazy" href="#offers_detail_{{rate.id}}_detail" data-fancybox
+           data-bg="url({{rate.image}})"></a>
+    </div>
+
+  <div class="btns_wrap">
+    <span class="book"><a href="javascript:;" onclick="{{best.bookLink.onclick}}">Book now</a></span>
+  </div>
+  
+  <a class="price_wrap qqqq" href="javascript:;" onclick="{{best.bookLink.onclick}}">
+    <span class="label">From</span>
+    <span class="price"><span class="amount">{{best.pricePerNightSplitted.thousands}}</span> <span class="currency">{{{best.currency_html}}}</span></span>
+  </a>
+  <div class="content">
+    <a class="title" data-fancybox href="#offers_detail_{{rate.id}}_detail">{{{rate.title}}}</a>
+    <span class="info"><a data-fancybox href="#offers_detail_{{rate.id}}_detail" class="info">Read more</a></span>
+  </div>
+</div>
+<div id="offers_detail_{{rate.id}}_detail" class="offer_details {{rate.class}}" style="display: none;">
+    <div class="offer_description_wrap">
+        <div class="offer_description_inner_wrap">
+            <div class="thumb_wrap">
+                <div class="thumb lazy"
+                     data-src="{{rate.image}}"></div>
+            </div>
+
+          <div class="offer_description">
+                        <a class="price_wrap" href="javascript:;" onclick="{{best.bookLink.onclick}}">
+              <span class="label">From</span>
+              <span class="price"><span class="amount">{{best.pricePerNightSplitted.thousands}}</span> <span class="currency">{{{best.currency_html}}}</span></span>
+            </a>
+            <div class="title">{{{rate.title}}}</div>
+            <div class="description" data-selectable="true">{{{rate.desc.html}}}</div>
+            <div class="btns_wrap">
+              <span class="book"><a href="javascript:;" onclick="{{best.bookLink.onclick}}">Book now</a></span>
+            </div>
+          </div>
+
+        </div>
+    </div>
+</div>                        </div>
+                        {{/rates}}
+                    </script>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Activités START -->    <div id="additional-content-repeater-1" class=" de_block de_block_additional_content_repeater after_offers before_additional_content section">
+                    <section id="extra_content_0"
+                     class="extra_content_section section_bg section has_featured_img even">
+                <div class="content_main_wrap container">
+                    <div class="thumb_wrap"><div class="thumb lazy" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/plage-saint-tropez-hotel-capucines.jpg"></div></div>                        <div class="content_wrap">
+                            <div class="content_inner_wrap">
+                                <div class="title_wrap"><div class="title">Activities</div><div class="subtitle">The beaches</div></div><div class="description"><p>In the shade of the canisses, <strong>the Moune beach</strong> is located 100m from the hotel. It is the only real beach located in the town of Gassin. Partly private and dedicated to the sailing school, the atmosphere is relaxed and sporty.</p>
+<p>The <strong>Treizain beach</strong>, 3 minutes by car from the hotel, offers a friendly place to relax. This natural beach offers a view of Saint-Tropez to the east, Sainte-Maxime to the north and the entire gulf.</p>
+<p><strong>La Bouillabaisse</strong> welcomes you on the edge of the town of Saint-Tropez with a beautiful area of fine sand and offers a splendid view of the coast and the Maures massif with magical sunsets.</p>
+</div>
+                                <div class="btns_wrap">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                                    </div>
+            </section>
+                        <section id="extra_content_1"
+                     class="extra_content_section section_bg section has_featured_img odd">
+                <div class="content_main_wrap container">
+                    <div class="thumb_wrap"><div class="thumb lazy" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/visit-saint-tropez-1000x562.jpeg"></div></div>                        <div class="content_wrap">
+                            <div class="content_inner_wrap">
+                                <div class="title_wrap"><div class="subtitle">More activities</div></div><div class="description"><p>Hiking lovers, the region is full of places to discover.</p>
+<p>Numerous mountain bike circuits and hiking trails can be found in the vicinity and offer splendid views of the Gulf of Saint-Tropez, the Bay of Cavalaire, the Maures region, the villages of Gassin, Grimaud and many others</p>
+<p>For water sports lovers &#8230; In the bends of the Treizain, the sailing school of La Moune offers courses or rentals of windsurfing, kayaks, fun board &#8230;</p>
+<p><strong>And if you are looking for a good table, a private beach or an idea for an outing, our team is there to recommend the best spots in Gassin and the surrounding area.</strong></p>
+</div>
+                                <div class="btns_wrap">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                                    </div>
+            </section>
+                </div>
+<!-- Contactez-nous START -->
+  <section id="additional-content-2" class=" de_block de_block_additional_content after_additional_content_repeater before_gallery additional_content_section section form">
+    <div class="container ">
+                        <h2 class="section_title"> Contact us</h2>
+                          <h3 class="the_subtitle"> Our team will be happy to answer you</h3>
+                          <div class="the_content container_large">
+            <p>&nbsp;</p>
+<p style="text-align: center">
+<div class='gf_browser_chrome gform_wrapper' id='gform_wrapper_2' >
+<form method='post' enctype='multipart/form-data'  id='gform_2'  action='/en/'>
+<div class='gform_heading'>
+<h3 class='gform_title'>Contact form</h3>
+<p>                            <span class='gform_description'></span>
+                        </div>
+<div class='gform_body'>
+<ul id='gform_fields_2' class='gform_fields top_label form_sublabel_below description_below'>
+<li id='field_2_1'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_2_1' >Name &amp; surname<span class='gfield_required'>*</span></label>
+<div class='ginput_container ginput_container_text'><input name='input_1' id='input_2_1' type='text' value='' class='medium'     aria-required="true" aria-invalid="false" /></div>
+</li>
+<li id='field_2_2'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_2_2' >Email<span class='gfield_required'>*</span></label>
+<div class='ginput_container ginput_container_text'><input name='input_2' id='input_2_2' type='text' value='' class='medium'     aria-required="true" aria-invalid="false" /></div>
+</li>
+<li id='field_2_3'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_2_3' >Message<span class='gfield_required'>*</span></label>
+<div class='ginput_container ginput_container_text'><input name='input_3' id='input_2_3' type='text' value='' class='large'     aria-required="true" aria-invalid="false" /></div>
+</li>
+<li id='field_2_4'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label'  >Personal information<span class='gfield_required'>*</span></label>
+<div class='ginput_container ginput_container_consent'><input name='input_4.1' id='input_2_4_1' type='checkbox' value='1'   aria-required="true" aria-invalid="false"   /> <label class="gfield_consent_label" for='input_2_4_1' >I have read and accept the Privacy Policy.</label><input type='hidden' name='input_4.2' value='I have read and accept the Privacy Policy.' class='gform_hidden' /><input type='hidden' name='input_4.3' value='2' class='gform_hidden' /></div>
+</li>
+<li id='field_2_5'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_2_5' ></label>
+<div id='input_2_5' class='ginput_container ginput_recaptcha' data-sitekey='6LdtdHolAAAAAHhjKB_dYEoDAprAYTud5e77Zx1e'  data-theme='light' data-tabindex='-1' data-size='invisible' data-badge='bottomright'></div>
+</li>
+<li id='field_2_6'  class='gfield gform_validation_container field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_2_6' >Name</label>
+<div class='ginput_container'><input name='input_6' id='input_2_6' type='text' value='' /></div>
+<div class='gfield_description' id='gfield_description_2_6'>This field is for validation purposes and should be left unchanged.</div>
+</li>
+</ul>
+</div>
+<div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_2' class='gform_button button' value='Submit'  onclick='if(window["gf_submitting_2"]){return false;}  window["gf_submitting_2"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_2"]){return false;} window["gf_submitting_2"]=true;  jQuery("#gform_2").trigger("submit",[true]); }' /><br />
+            <input type='hidden' class='gform_hidden' name='is_submit_2' value='1' /><br />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='2' /></p>
+<p>            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' /><br />
+            <input type='hidden' class='gform_hidden' name='state_2' value='WyJ7XCI0LjFcIjpcIjgzMmFjM2Q3N2NiMTMwYjk1ZmQ5YWFiNmI0NTk2ZjExXCIsXCI0LjJcIjpcIjQ1OTM3MDViMDQxNmM1NWFmZWZjZmI5MzE4MTY0ZmNkXCIsXCI0LjNcIjpcIjkwNjdjNTc2Yjk2Y2VjYzRlMzIxYzAwOTNkZDZjOTM2XCJ9IiwiOTVlMzNhMjQ5OTM3YTZjYWY5MzUxMWNjM2RhOGI5ZDAiXQ==' /><br />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_2' id='gform_target_page_number_2' value='0' /><br />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_2' id='gform_source_page_number_2' value='1' /><br />
+            <input type='hidden' name='gform_field_values' value='' /></p></div>
+</p></form>
+</p></div>
+<p><script type='text/javascript'> jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 2) {} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type='text/javascript'> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [2, 1]) } ); </script></p>
+<p>*Required field</p>
+          </div>
+              <div class="btns_wrap"></div>    </div>
+  </section>
+
+
+
+
+<!-- Gallery #1 START -->  <section id="gallery-1" class=" de_block de_block_gallery after_additional_content before_map section gallery_section grid use_isotope">
+          <div class="container">
+      <div class="content_container">
+                  <h2 class="the_title"> Photos</h2>
+                      </div>
+    </div>
+        <div class="container">
+            <div class="filters_wrap">
+        <div class="hidden-md hidden-lg">
+                  </div>
+        <div class="hidden-xs hidden-sm">
+                  </div>
+      </div>
+      <div class="elements_wrapper">
+    <div class="slider_container">
+        <div class="elements_to_filter ">
+            
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_18.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_24-1.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_25.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_26.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_30-1.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_35.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_36-1.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_nuit1.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_nuit2.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_reception2.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-saint-tropez-petit-dejeuner_1.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-saint-tropez-petit-dejeuner_2.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-saint-tropez-petit-dejeuner_3.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-saint-tropez-petit-dejeuner_11.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-saint-tropez-petit-dejeuner_16.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-saint-tropez-petit-dejeuner_20.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_chambre-classique-1.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_chambre-classique-2.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_chambre-classique-3.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_chambre-classique-7.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_chambre-classique-17.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_chambre-deluxe-11.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_chambre-deluxe-14.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_chambre-deluxe-32.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_17.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_chambre-deluxe-33.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_chambre-deluxe-36.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_chambre-deluxe-38.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_chambre-deluxe-47.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_chambre-deluxe-50.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_chambre-deluxe-51.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_suite-1.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_suite-2.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_suite-5.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_suite-13.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_suite-familiale-1.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_suite-familiale-6.jpg"></span>
+                                                        </div>
+                    </div>
+
+                    
+                    <div class="item_wrap thumb_wrap grid_sizer filter_0">
+                        <div class="thumb_content">
+                            <span class="thumb lazy" data-fancybox="gallery gallery-1" data-src="https://www.hotelcapucines.fr/wp-content/uploads/sites/17/2024/06/hotel-capucines-4-etoiles-saint-tropez_suite-familiale-11.jpg"></span>
+                                                        </div>
+                    </div>
+
+                            </div>
+                    <div class="btns_wrap"><span class="info"><a href="javascript:;"
+                                                         class="">View all photos</a></span>
+            </div>
+        
+    </div>
+</div>
+
+<script type="text/javascript">
+    var viewPhotos ="View all photos";
+    var hidePhotos ="Hide photos";
+</script>          </div>
+  
+  </section>
+<!-- Map START -->
+<script>
+    var style = [];
+    style['custom'] = [{"featureType":"poi.business","stylers":[{"visibility":"off"}]}];
+    style['default'] = [{"featureType":"poi.business","stylers":[{"visibility":"off"}]}];
+    style['dark'] = [{"elementType":"geometry","stylers":[{"color":"#212121"}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"elementType":"labels.text.fill","stylers":[{"color":"#757575"}]},{"elementType":"labels.text.stroke","stylers":[{"color":"#212121"}]},{"featureType":"administrative","elementType":"geometry","stylers":[{"color":"#757575"}]},{"featureType":"administrative.country","elementType":"labels.text.fill","stylers":[{"color":"#9e9e9e"}]},{"featureType":"administrative.land_parcel","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"labels.text.fill","stylers":[{"color":"#bdbdbd"}]},{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"color":"#757575"}]},{"featureType":"poi.business","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#181818"}]},{"featureType":"poi.park","elementType":"labels.text.fill","stylers":[{"color":"#616161"}]},{"featureType":"poi.park","elementType":"labels.text.stroke","stylers":[{"color":"#1b1b1b"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"color":"#2c2c2c"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#8a8a8a"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#373737"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#3c3c3c"}]},{"featureType":"road.highway.controlled_access","elementType":"geometry","stylers":[{"color":"#4e4e4e"}]},{"featureType":"road.local","elementType":"labels.text.fill","stylers":[{"color":"#616161"}]},{"featureType":"transit","elementType":"labels.text.fill","stylers":[{"color":"#757575"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"color":"#3d3d3d"}]}];;
+    style['desaturated'] =[{"stylers":[{"saturation":-55}]},{"featureType":"poi.business","stylers":[{"visibility":"off"}]}];
+    style['bright'] = [{"elementType":"geometry","stylers":[{"color":"#f5f5f5"}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"elementType":"labels.text.fill","stylers":[{"color":"#616161"}]},{"elementType":"labels.text.stroke","stylers":[{"color":"#f5f5f5"}]},{"featureType":"administrative.land_parcel","elementType":"labels.text.fill","stylers":[{"color":"#bdbdbd"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#eeeeee"}]},{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"color":"#757575"}]},{"featureType":"poi.business","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#e5e5e5"}]},{"featureType":"poi.park","elementType":"labels.text.fill","stylers":[{"color":"#9e9e9e"}]},{"featureType":"road","elementType":"geometry","stylers":[{"color":"#ffffff"}]},{"featureType":"road.arterial","elementType":"labels.text.fill","stylers":[{"color":"#757575"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#dadada"}]},{"featureType":"road.highway","elementType":"labels.text.fill","stylers":[{"color":"#616161"}]},{"featureType":"road.local","elementType":"labels.text.fill","stylers":[{"color":"#9e9e9e"}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"color":"#e5e5e5"}]},{"featureType":"transit.station","elementType":"geometry","stylers":[{"color":"#eeeeee"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#c9c9c9"}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"color":"#9e9e9e"}]}];
+    style['bright_2'] = [{"elementType":"geometry.fill","stylers":[{"weight":"2.00"}]},{"elementType":"geometry.stroke","stylers":[{"color":"#9c9c9c"}]},{"elementType":"labels.text","stylers":[{"visibility":"on"}]},{"featureType":"landscape","stylers":[{"color":"#f2f2f2"}]},{"featureType":"landscape","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"landscape.man_made","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"landscape.natural","elementType":"labels","stylers":[{"color":"#6c6c6c"},{"visibility":"simplified"}]},{"featureType":"poi","stylers":[{"visibility":"off"}]},{"featureType":"road","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"color":"#eeeeee"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#7b7b7b"}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","stylers":[{"visibility":"simplified"}]},{"featureType":"transit","stylers":[{"visibility":"off"}]},{"featureType":"water","stylers":[{"color":"#46bcec"},{"visibility":"on"}]},{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#c8d7d4"}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"color":"#070707"}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"}]}];
+
+    var styleResolved = style["bright"];
+</script><script>
+    var map_data = {
+        markers: [{"title":"H\u00f4tel Capucines","latitude":"43.2617461","longitude":"6.6054086","address":"341 All\u00e9e de Domaine de TREIZAIN, SAINT TROPEZ, 83580 Gassin, France","phone":"04 94 97 70 05","mail":"hello@hotelcapucines.fr","slug":"hotel"}],
+        markers_by_category: [],
+        icon:  "\/\/www.hotelcapucines.fr\/wp-content\/plugins\/de-builder-evo-blocks\/blocks\/map\/assets\/img\/marker_small.svg",
+        icon_hotel: "\/\/www.hotelcapucines.fr\/wp-content\/plugins\/de-builder-evo-blocks\/blocks\/map\/assets\/img\/marker.svg"    };
+    var hotel_gps_coordinates = {
+        latitude: 43.2617461,
+        longitude: 6.6054086    };
+    var lang =  "en";
+    var lang_directions =  "en-gb";
+    var data =  {"last_tab":"3","hotel_name":"H\u00f4tel Capucines","hotel_stars":"2","logo":{"url":"https:\/\/www.hotelcapucines.fr\/wp-content\/uploads\/sites\/17\/2023\/04\/Capucines_Logo_paysage-2.png","id":"55","height":"373","width":"1130","thumbnail":"https:\/\/www.hotelcapucines.fr\/wp-content\/uploads\/sites\/17\/2023\/04\/Capucines_Logo_paysage-2-150x150.png","title":"Capucines_Logo_paysage (2)","caption":"","alt":"","description":""},"hotel_url":"www.hotelcapucines.fr","hotel_phone":"04 94 97 70 05","hotel_fax":"","hotel_email":"hello@hotelcapucines.fr","404_image":{"url":"https:\/\/www.hotelcapucines.fr\/wp-content\/uploads\/sites\/17\/2023\/04\/1.jpg","id":"14","height":"600","width":"900","thumbnail":"https:\/\/www.hotelcapucines.fr\/wp-content\/uploads\/sites\/17\/2023\/04\/1-150x150.jpg","title":"","caption":"","alt":"","description":""},"additional_logo":{"url":"https:\/\/www.hotelcapucines.fr\/wp-content\/uploads\/sites\/17\/2023\/04\/Capucines_Logo_paysage-2.png","id":"55","height":"373","width":"1130","thumbnail":"https:\/\/www.hotelcapucines.fr\/wp-content\/uploads\/sites\/17\/2023\/04\/Capucines_Logo_paysage-2-150x150.png","title":"Capucines_Logo_paysage (2)","caption":"","alt":"","description":""},"hotel_vat":"","hotel_gds":"","ty_widget":"","google-plus":"","facebook":"","twitter":"","pinterest":"","youtube":"","instagram":"https:\/\/www.instagram.com\/hotel_capucines\/","linkedin":"","flickr":"","tripadvisor":"","skype":"","vk":"","foursquare":"","line":"","we_chat":"","vimeo":"","whatsapp":"","tiktok":"","hotel_address":"341 All\u00e9e de Domaine de TREIZAIN","hotel_pc":"83580 Gassin","hotel_city":"SAINT TROPEZ","hotel_country":"France","hotel_coords":"43.2617461,6.6054086","map_type":"ROADMAP","map_zoom":"16","map_scroll_wheel":"","provider":"embed","gmap_style":"bright","custom_style":"","custom_style_static":"","embed_type":"address","hotel_name_map":"","hotel_iframe_map":"","hotel_marker":{"url":"","id":"","height":"","width":"","thumbnail":"","title":"","caption":"","alt":"","description":""},"poi_marker":{"url":"","id":"","height":"","width":"","thumbnail":"","title":"","caption":"","alt":"","description":""},"hotel_hid":"","fb_hotel_name":"","hotel_connect_name":"","fb_cluster_name":"","remove_automatic_credits_link":"0","hotel_formtitle":"","hotel_nbdelay":"","hotel_minadults":"1","hotel_maxadults":"4","hotel_minchildren":"","hotel_maxchildren":"2","hotel_trackingcode":"","hotel_hide_best_price":"","hotel_hide_last_room":"","hotel_minstay":"","hotel_opendate":"","hotel_childrenage":"","hotel_childrenage_enable":"","websdk_token":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJib29raW5nRW5naW5lUmVmZXJlbmNlIjoiSktOSiIsImhvdGVsSWQiOiIyODQ4OCIsImdyb3VwSWQiOiIxMTUxMiIsInJlZmVyZW5jZVJhdGVDb2RlIjoiUkFDS1BSSSIsImRpc3BsYXlOYW1lIjoiSG90ZWwtbGVzLUNhcHVjaW5lcyIsIm5iZiI6MTY4MDcwMjUwNSwiZXhwIjoyNTM0MDIzMDA4MDAsImlhdCI6MTY4MDcwMjUwNSwiaXNzIjoiQXZhaWxwcm8gQVBJIE1hbmFnZXIiLCJhdWQiOiJkLWVkZ2UifQ.uOPO7A-7qq9m86M5u87CGZb0GzSr69WkrQ-_E91miYeOeELnXaMUUL-oEIpACk5AuA-8rzxxIhqSifwb0m8B-w","websdk_min_adults":"1","websdk_mcm":"","websdk_currency":"EUR","avp_enable":"1","avp_base_url":"https:\/\/www.secure-hotel-booking.com\/Hotel-les-Capucines\/JKNJ\/","avp_hid":"28488","avp_groupid":"11512","avp_is_group_be":"","avp_excludeoffers":"","avp_infants_maxage":"2","avp_pass_language":"1","avp_hide_best_price":"","avp_hide_last_room":"","avp_currency":"EUR","hotel_ga_tracker":"","hotel_ga_tracker2":"","hotel_ga_tracker3":"","hotel_gwt_tag":"N8Xm76bgdvj70ejUElokwpF7B-c9KD7ACSCmuiGhVtU","hotel_bwt_tag":"","google_adwords":"","hotel_event_management":"","hotel_service_management":"","hotel_poi_management":"","hotel_news_management":"","dedge_enable_comments":"0","fbpro_opt_enable_lp":"1","fbpro_opt_lp_page":"3","fbpro_opt_lp_date":"","fbpro_opt_fb_social_login":"","fbpro_opt_pages_categories":"","fbpro_opt_cjk_word_wrap":"no","fbpro_opt_mikan":"no","REDUX_last_saved":1722326912,"REDUX_LAST_SAVE":1722326912,"hotel_name___orig":"H\u00f4tel Capucines","hotel_address___orig":"341 All\u00e9e de Domaine de TREIZAIN","hotel_city___orig":"SAINT TROPEZ","hotel_country___orig":"France","hotel_email___orig":"hello@hotelcapucines.fr","hotel_phone___orig":"04 94 97 70 05"};
+
+    var map_zoom =16;
+    var map_type ="roadmap";
+    var map_config = {
+        'map_canvas': {
+            'visible_markers': ['hotel'],
+            'default_zoom': map_zoom
+        }
+    };
+</script>
+<section class=" de_block de_block_map after_gallery before_expandible_contents "  id="map-1"
+         class="section map_section section_padding both ">
+            <div id="location_prev_section">
+            <div class="container">
+                <div id="location_prev">
+                    <div class="contacts_box">
+                        <div class="title">Hôtel Capucines</div>
+                        <div class="contacts description">	
+		<span class="element element_address">
+			<span class="element_pref">Address</span>
+			<span class="element_data">341 Allée de Domaine de TREIZAIN, SAINT TROPEZ, 83580 Gassin, France</span>
+		</span>	
+		<span class="element element_phone">
+			<span class="element_pref">Phone</span>
+			<span class="element_data"><a href='tel:04 94 97 70 05'>04 94 97 70 05</a></span>
+		</span>	
+		<span class="element element_mail">
+			<span class="element_pref">E-mail</span>
+			<span class="element_data"><a href="/cdn-cgi/l/email-protection#adc5c8c1c1c2edc5c2d9c8c1ceccddd8cec4c3c8de83cbdf"><span class="__cf_email__" data-cfemail="98f0fdf4f4f7d8f0f7ecfdf4fbf9e8edfbf1f6fdebb6feea">[email&#160;protected]</span></a></span>
+		</span></div>                    </div>
+                                            <div id="map_embed">
+                            <iframe allowfullscreen loading="lazy"  width="100%" height="100%" src="https://maps.google.com/maps?hl=en&t=&q=341 Allée de Domaine de TREIZAIN, SAINT TROPEZ, 83580 Gassin, France&z=16&z=16&ie=UTF8&iwloc=B&output=embed"></iframe>                        </div>
+                    
+                </div>
+            </div>
+        </div>
+        </section>
+<!-- Expandable Contents START --><div id="expandible-contents-1" class=" de_block de_block_expandible_contents after_map de_last section section_expandable_contents">
+    <div class="container">
+            </div>
+</div>
+<div id="footer">
+  <div id="footer_top_menu">
+    <div class="container">
+              <ul class="menu">
+                      <li>
+
+              <a data-link="show_69_0" class="view_privacy" href="javascript:;">
+                <span class="menu_label"> Legal notice  </span>
+              </a>
+
+            </li>
+            <div id="show_69_0" style="display: none">
+    <div class="mega_details_wrapper">
+        <div class="mega_details_inner_wrapper">
+            <div class="mega_details_content">
+                <a href="javascript:;" class="close"></a>
+                <div class="mega_details">
+                    <h4 class="the_title">Legal notice</h4>
+                                            <div class="btns_wrap">
+
+                                                    </div>
+                    <div class="the_content"><p style="text-align: center"><strong>Hôtel Capucines &#8211; Information</strong></p>
+<p style="text-align: center">Company name: LES CAPUCINES SAINT TROPEZ SAS</p>
+<p style="text-align: center">Commercial name: Hôtel Capucines</p>
+<p style="text-align: center">Phone : (+33) 4 94 97 70 05</p>
+<p style="text-align: center">Head Office : 341 allée du domaine du treizain 83580 Gassin</p>
+<p style="text-align: center">SIRET : 89744636500016 Publication Director: J. Scholtes</p>
+<p style="text-align: center"><strong>DESIGN and Maintenance </strong></p>
+<p style="text-align: center">The company D-Edge, 64-66 rue des Archives, 75003 Paris ;</p>
+<p style="text-align: center">Phone number : +33 (0)1 76 44 04 35 ;</p>
+<p style="text-align: center">official website : D-EDGE</p>
+<p style="text-align: center"><strong>HOSTING </strong></p>
+<p style="text-align: center">WPEngine, Inc., Irongate House, 22-30 Duke’s Place, London, EC3A 7LP, United Kingdom, Phone: 08 00 50 53 049 LES CAPUCINES SAINT TROPEZ SAS (the « Company ») is a public limited company under French law, having its registered office at 341 allée du domaine du treizain 83580 Gassin, France, registered with the Metz Trade and Companies Register under number 897 446 365.</p>
+<p style="text-align: center">The company is also known under the trade name Hôtel Capucines, which is located at its registered office and open to the public on weekdays and weekends during normal business hours (from 7 a.m. to 11 p.m.).</p>
+<p style="text-align: center">By choosing to access the site, the user accepts, expressly and irrevocably, the terms below. In the text below, the rules applicable and named for www.hotelcapucines.fr are also applicable and named for the following site: hotelcapucines.fr</p>
+<p style="text-align: center"><strong>NOTICE</strong></p>
+<p style="text-align: center">Access to and use of the site www.hotelcapucines.fr are subject to the present conditions of access and use, which are binding on you and which you are required to respect.</p>
+<p style="text-align: center">Therefore, we recommend you to carefully read the following. The Company claims to be a responsible company.</p>
+<p style="text-align: center">As such, we remind you that alcohol abuse is dangerous to your own health. Alcohol should be consumed in moderation. Access to and use of the www.hotelbrindazur.fr site in other countries and territories where the consumption of alcohol is permitted is strictly reserved for persons legally authorized to consume alcoholic beverages.</p>
+<p style="text-align: center">Access to and use of the site www.hotelcapucines.fr by persons located in France is strictly reserved for adults. Any contravention of the foregoing, and in particular, any erroneous or falsified indication concerning the age of the user of the site www.hotelcapucines.fr shall not engage the liability of the Company.</p>
+<p style="text-align: center">Consequently, persons located in a country or territory where the use of the site www.hotelcapucines.fr is not authorized by the laws and regulations in force, or persons under the age required to access this site are requested to leave the site www.hotelcapucines.fr immediately.</p>
+<p style="text-align: center"><strong>COPYRIGHT </strong></p>
+<p style="text-align: center">This entire site is subject to France and international legislation on copyright and intellectual property.</p>
+<p style="text-align: center">The photographs, texts, slogans, drawings, images, animated sequences with or without sound, as well as all works integrated into the site are the property of the Company or of third parties having authorized the Company to use them.</p>
+<p style="text-align: center">The logos, icons and graphic chips represented on the site are protected by copyright and articles L.511.1 and following of the Intellectual Property Code relating to the protection of registered models.</p>
+<p style="text-align: center">All reproduction rights are reserved and strictly limited, including for downloadable documents and iconographic and photographic representations.</p>
+<p style="text-align: center">The brands cited on this site are registered by the companies that own them. Any unauthorized use of all or part of these rights by third parties is liable to give rise to legal proceedings.</p>
+<p style="text-align: center"><strong>SITE CONTENT</strong></p>
+<p style="text-align: center">The Company declines all responsibility in the event of a delay in updating, as well as in the event of interruption or temporary unavailability of the service.</p>
+<p style="text-align: center">The Company reserves the right to correct, at any time and without notice, the content of this site.</p>
+<p style="text-align: center">Reproductions, on paper or computer media, of the said site and the works reproduced therein are authorized provided that they are strictly reserved for personal and private use.</p>
+<p style="text-align: center">This excludes any use for advertising and/or commercial and/or information purposes and/or that they comply with the provisions of article L.122-5 of the Intellectual Property Code.</p>
+<p style="text-align: center">Any reproduction, representation, use or modification, by any process whatsoever and on any medium whatsoever, of all or part of the site, of all or part of the various works that make it up, without having obtained the prior authorization of the director of the publication is strictly prohibited, constitutes an offence of counterfeiting and may result in civil and/or criminal legal proceedings, as well as the payment of damages.</p>
+<p style="text-align: center"><strong>SITE ACESS </strong></p>
+<p style="text-align: center">The user of the site www.hotelcapucines.fr acknowledges having the necessary skills and means to access and use this site.</p>
+<p style="text-align: center">The Company shall not be held liable for elements and events beyond its control related to the use of the site and their effects or for hardware and/or software incompatibilities and any damage that may result for the user’s technical environment, in particular for his or her computers, software, network equipment and any other equipment used to access or use the service and/or information.</p>
+<p style="text-align: center">Users are reminded that fraudulently accessing or remaining in a computer system, hindering or distorting the operation, fraudulently introducing or modifying data from such a system constitutes an offence punishable by criminal penalties.</p>
+<p style="text-align: center"><strong>HYPERTEXT LINKS</strong></p>
+<p style="text-align: center">The site www.hotelcapucines.fr authorizes the establishment of a hypertext link to its content, subject to :</p>
+<p style="text-align: center">• authorization of the director of the publication of the site</p>
+<p style="text-align: center">• not to use the technique of deep linking, i.e. the pages of the site www.hotelbrindazur.fr must not be nested within the pages of another site, but accessible by opening a dedicated window.</p>
+<p style="text-align: center">• to mention the source which will point thanks to a hypertext link directly to the targeted content.</p>
+<p style="text-align: center">Any use for commercial or advertising purposes is excluded except as provided. This authorization does not apply to websites disseminating information of a controversial, pornographic, xenophobic nature or which may, to a large extent, affect the sensitivity of the majority.</p>
+<p style="text-align: center">the sensitivity of the majority. The Company disclaims any responsibility for the content of linked sites, regardless of the type of link established from or to hotelbrindazur.fr. The Company reserves the right to oppose its establishment.</p>
+<p style="text-align: center"><strong>SERVICE ORDERING</strong></p>
+<p style="text-align: center">The Customer reserves the Service(s) that are suitable for him on the site. The Services are accurately described and presented on the Company’s website. At any time, the Client may know the amount of its Order. The Client is responsible for its choice of Services.</p>
+<p style="text-align: center">The Customer retains the right to modify his Order until it is validated. The summary of the Order lists the Services ordered and their prices, including any additional amounts. At the end of the Order, the Customer confirms acceptance of the Order by ticking the box for validation of the GCS and then clicking on ‘Confirm my reservation’. Certain ‘Non-modifiable, non-cancellable’ offers require the explicit acknowledgement of the obligation to pay for the Order online.</p>
+<p style="text-align: center">After validation of the Order, the Company will send a confirmation by e-mail to the Customer with the elements of the reservation.</p>
+<p style="text-align: center"><strong>RIGHT OF WITHDRAWAL</strong></p>
+<p style="text-align: center">In accordance with Article L 221-28 of the Consumer Code, the Customer acknowledges that the right of withdrawal is not applicable to the provision of hosting services. As such, he expressly waives any right of withdrawal by accepting these GCS.</p>
+<p style="text-align: center"><strong>IINFORMATION COLLECTED ON THE SITE / DATA PROTECTION</strong></p>
+<p style="text-align: center">In the course of its business, the Company processes certain personal data of its Clients. The Company attaches great importance to respect for privacy and takes all necessary measures to ensure the confidentiality and security of Clients’ personal data.</p>
+<p style="text-align: center">The Company collects personal data, in particular the following information:</p>
+<p style="text-align: center">• Email address</p>
+<p style="text-align: center">• First and last name</p>
+<p style="text-align: center">• Mailing address</p>
+<p style="text-align: center">• Phone numbers</p>
+<p style="text-align: center">• Bank details (cards)</p>
+<p style="text-align: center">The Customer consents to the processing and analysis of such data for the following purposes in particular:</p>
+<ul>
+<li style="text-align: center">Compulsory control of France data (law of 24 June 2008) at the time of reservation and check-in at the hotel.</li>
+<li>Site management</li>
+<li>Order management</li>
+<li>Payment of orders</li>
+<li>Answering questions or complaints</li>
+<li>Management and sending of the newsletter</li>
+<li>Elaboration of statistics</li>
+<li>Management of requests for access, rectification and opposition rights</li>
+<li>Management of unpaid bills and litigation</li>
+</ul>
+<p style="text-align: center">The personal data of the Customers are kept for the duration strictly necessary for the above uses within the limit of three years after the collection or the last contact with the Customer.</p>
+<p style="text-align: center">The Company may need to communicate the personal data of the Clients in order to cooperate with the administrative and judicial authorities.</p>
+<p style="text-align: center">Pursuant to Decree 2011-219 of February 25, 2011 relating to the conservation and communication of data allowing the identification of any person having contributed to the creation of content put online, the Customer is informed that the host of the site has the obligation to keep for a period of one year from the day of the creation of the content, namely :</p>
+<p style="text-align: center">• The identifier of the connection at the origin of the communication</p>
+<ul>
+<li style="text-align: center">The identifier assigned by the information system to the content concerned.</li>
+<li style="text-align: center">The protocols used to connect to the service</li>
+<li style="text-align: center">The nature of the operation</li>
+<li style="text-align: center">The dates and time of the operation</li>
+<li style="text-align: center">The identifier used by the author of the operation</li>
+</ul>
+<p style="text-align: center">The Company collects the IP address of each computer used by the Customers in order to analyze the traffic of the site and to control that it does not proceed to acts that could harm the interests of the Company.</p>
+<p style="text-align: center">In accordance with the French Data Protection Act of January 6, 1978 and any regulations modifying or replacing it, Customers have the right to access, rectify, delete and oppose the processing of their data collected and processed by the Company, by contacting the Company directly at the following email address www.hotelcapucines.fr In the context of the use of the site by the Clients, the Company may use cookies. An alert message asks each person visiting the site, beforehand, if he or she wishes to accept cookies. These cookies do not contain any confidential information concerning the Customers.</p>
+<p style="text-align: center"><strong>ONLINE PAYMENT CONDITIONS</strong></p>
+<p style="text-align: center">LThe prices of the various Services are mentioned in the descriptions, in Euros, all taxes included. Unless otherwise stated or special offers, additional services are not included in the price (breakfast, etc…). In the case of online payment, the Site uses a transaction security system called secure-hotel-booking. This system guarantees the Customer the confidentiality of his bank details. The data are thus totally encrypted and protected. They are not stored electronically by the Company. The Company reserves the right to suspend or cancel any Order in the event of non-payment, fraud or attempted fraud.</p>
+<p style="text-align: center"><strong>ONLINE BOOKING</strong></p>
+<p style="text-align: center">The general terms and conditions of sale and cancellation related to the online booking or booking request are precisely indicated in the relevant forms. You can request a copy of the general terms and conditions of sale from the above address. Online booking solutions require you to tick the box « acceptance of the general terms and conditions of sale » before any purchase. Tourist taxes, if any, will be specified on the establishment’s invoice. The setting of these taxes is beyond the Company’s control.</p>
+<p style="text-align: center"><strong>COOKIES TERMS AND CONDITIONS</strong></p>
+<p style="text-align: center">Cookies use on the website www.hotelcapucines.fr When you visit our website, information relating to the browsing of your device (computer, tablet, smartphone, etc.) on our site may be recorded in « Cookies » files installed on your device, subject to the choices you have expressed concerning Cookies and which you can modify at any time. A Cookie is a small text file saved in a dedicated space on the hard disk of your device when you consult an online service using your browser software. It allows its sender to identify the terminal in which it is stored, during the period of validity or registration of the Cookie.</p>
+<p style="text-align: center">What is the purpose of the cookies issued on our site?</p>
+<p style="text-align: center">Only the sender of a cookie is likely to read or modify the information contained therein. The Cookies that we issue on our site are used for the purposes described below, subject to your choices resulting from the parameters of your browser software used during your visit to our site, the settings of which you can change at any time. The cookies we provide allow us to :</p>
+<p>-to establish statistics and volumes of frequentation and use of the various elements making up our site (sections and content visited, paths), enabling us to improve the interest and ergonomics of our services. To adapt the presentation of our site to the display preferences of your terminal (language used, display resolution, operating system used, etc.) during your visits to our site, depending on the hardware and the viewing or reading software that your terminal contains;</p>
+<p>-to store information relating to a form that you have filled out on our site (registration or access to your account or authentication to access a service of our group) or to products, services or information that you have chosen on our site (subscribed service, contents of an order basket, etc.);</p>
+<p>-to allow you to access reserved and personal areas of our site, such as your account, thanks to identifiers or data that you may have previously entrusted to us;</p>
+<p>-to implement security measures, for example, when you are asked to reconnect to a content or service after a certain period of time.</p>
+<p style="text-align: center">Cookies issued on our site by third parties The issuance and use of cookies by third parties is subject to the privacy policies of those third parties. We inform you of the purpose of the cookies of which we are aware and the means available to you to make choices with regard to these cookies. As a result of third party applications integrated into our site We may include, on our site, computer applications from third parties that allow you to share content on our site with others or to let others know your consultation or opinion about content on our site. This is particularly the case of « Share », « Like » buttons, from social networks such as Facebook, « Twitter », etc., which you can use to share content on our Site with others or to let others know your views or opinions about content on our Site. The social network that provides such an application button may identify you with that button, even if you did not use that button when you visited our site. Indeed, this type of application button may allow the relevant social network to follow your navigation on our site, simply because your account with the relevant social network was activated on your device (open session) during your navigation on our site. We have no control over the process used by social networks to collect information related to your browsing on our site and associated with the personal data they have in their possession. We invite you to consult the privacy protection policies of these social networks in order to be aware of the purposes of use, including advertising, of the browsing information they may collect through these application buttons. These protection policies must notably allow you to exercise your choices with these social networks, notably by setting up your accounts for use of each of these networks. Your choices regarding cookies There are several possibilities to manage Cookies. Any setting you may undertake will be likely to modify your Internet browsing and your conditions of access to certain services requiring the use of Cookies. You may choose at any time to express and modify your wishes regarding cookies, by the means described below. The choices offered to you by your browser software You can configure your browser software so that cookies are stored on your terminal or, on the contrary, that they are rejected, either systematically or according to their issuer. You can also configure your browser software so that the acceptance or rejection of cookies is offered to you from time to time, before a cookie is likely to be stored on your device. For more information, see the section « How to exercise your choices, depending on the browser you use? »</p>
+<p style="text-align: center">• The agreement on Cookies The registration of a Cookie in a terminal is essentially subject to the will of the user of the terminal, which the latter may express and modify at any time and free of charge through the choices offered by his browser software. If you have accepted in your browser software the recording of cookies in your terminal, the Cookies integrated in the pages and contents that you have consulted may be stored temporarily in a dedicated space of your terminal. They will be readable there only by their transmitter.</p>
+<p style="text-align: center">• Refusal of Cookies If you refuse to save cookies in your terminal, or if you delete those saved, you will no longer be able to benefit from a certain number of functions that are nevertheless necessary to navigate in certain areas of our site. This would be the case if you tried to access our content or services that require you to identify yourself. This would also be the case if we or our service providers could not recognize, for technical compatibility purposes, the type of browser used by your terminal, its language and display settings or the country from which your terminal appears to be connected to the Internet. Where applicable, we decline all responsibility for the consequences related to the degraded operation of our services resulting from the impossibility for us to record or consult the cookies necessary for their operation and which you would have refused or deleted.</p>
+<p style="text-align: center">• How to exercise your choices, depending on the browser you are using? For the management of cookies and your choices, the configuration of each browser is different. It is described in the help menu of your browser, which will allow you to know how to modify your wishes regarding cookies.</p>
+<p style="text-align: center">o For Chrome™: https://support.google.com/chrome/answer/95647?hl=fr&amp;co=GENIE.Platform=Desktop, o for internet explorer™ : https://support.microsoft.com/fr-fr/help/17442/windows-internet-explorer-delete-manage-cookies, o for safari™: https://support.apple.com/kb/PH21411?viewlocale=fr_FR&amp;locale=fr_FR, o for firefox™: https://support.mozilla.org/fr/kb/activer-desactiver-cookies-preferences?redirectlocale=fr&amp;redirectslug=Activer+et+d%C3%A9enable+the+cookies, o etc.</p>
+<p style="text-align: center">Cookies » flash »© from » adobe flash player « ™ « Adobe Flash Player » ™ is a software application that allows the rapid development of dynamic content using the « Flash » computer language. Flash (and similar applications) memorizes the parameters, preferences and use of these contents thanks to a technology similar to cookies. However, « Adobe Flash Player »™ manages this information and your choices through an interface different from that provided by your browser software. To the extent that your device is likely to view content developed with Flash language, we invite you to access your Flash cookie management tools directly from the http://www.adobe.com/fr/ website. The Cookies that we issue allow us, if your device has enabled their registration, according to your choices:</p>
+<p style="text-align: center">• to establish statistics,</p>
+<p style="text-align: center">• to adapt the presentation of the site to which one of our advertising content leads,</p>
+<p style="text-align: center">• according to the display preferences of your terminal (language used, display resolution, operating system used, etc.) during your visits to our site and according to the hardware and software for viewing or reading that your terminal includes</p>
+<p style="text-align: center">• according to the location data (longitude and latitude) transmitted to us (or to our service providers) by your terminal with your prior consent, Track subsequent navigation of your device to sites/applications If you share the use of your terminal with others</p>
+<p style="text-align: center">If your device is used by more than one person, and if a device has multiple browsers, we cannot be certain that the services and advertisements for your device are appropriate for your use of that device and not for the use of another user of that device. If you choose to share the use of your device with others and configure your browser settings with respect to cookies, you do so at your own discretion and responsibility.</p>
+<p style="text-align: center">List of cookies</p>
+<p style="text-align: center">Cookies issued for essential purposes : These cookies are essential to the operation of the site. Without them, it would not be possible to memorize your choices and your journey, such as not showing you the introductory animation of a site if you have already seen it.</p>
+<p style="text-align: center">PHPSESSID Allow you to identify yourself on our site and allow the storage of your route for the time of your visit.</p>
+<p style="text-align: center">Cookies for audience measurement and statistics issued by Google Analytics: These cookies make it possible to know the number of users and to identify how they use the site. The elements then collected, allow us to constantly improve your user experience.</p>
+<p style="text-align: center">The data thus selected does not allow to identify a user, the information being anonymous. _utma, _utmb, _utmc, _utmv and _utmz Allow us to establish statistics and volumes of frequentation and use of the various elements that make up our sites (sections and content visited, paths), allowing us to improve the interest and ergonomics of our services. Cookies issued by third party applications integrated into our site: We are likely to include on our site, computer applications emanating from third parties, which allow you to share contents of our site with other people or to make known to these other people your consultation or your opinion concerning a content of our site. This is notably the case of the « Share » and « Like » buttons from social networks such as Facebook, « Twitter », Google +, etc.</p>
+<p style="text-align: center">The social network providing such an application button is likely to identify you through this button, even if you did not use this button when you consulted our site. Indeed, this type of application button may allow the social network concerned to follow your navigation on our site, simply because your account on the social network concerned was activated on your computer (open session) during your navigation on our site. We have no control over the process used by social networks to collect information related to your browsing on our site and associated with the personal data they have in their possession.</p>
+<p style="text-align: center">We invite you to consult the privacy protection policies of these social networks in order to be aware of the purposes of use, including advertising, of the navigation information they may collect through these application buttons.</p>
+<p style="text-align: center">These protection policies must notably allow you to exercise your choices with these social networks, notably by setting up your accounts for use of each of these networks. To review the privacy policy of the above mentioned social networks click on the name of the social network of your choice:</p>
+<p style="text-align: center">• Facebook : https://www.facebook.com/help/cookies</p>
+<p style="text-align: center">• Twitter: https://twitter.com/privacy</p>
+<p style="text-align: center">• Google + : http://support.google.com/chrome/bin/answer.py?hl=fr&amp;answer=95647</p>
+<p style="text-align: center">• Trivago: https://company.trivago.fr/cookie-policy/</p>
+<p style="text-align: center">• Tripadvisor: https://www.tripadvisor.fr/CookiePolicy</p>
+</div>
+
+                </div>
+                            </div>
+        </div>
+    </div>
+</div>
+            <li>
+
+              <a data-link="show_74_1" class="view_privacy" href="javascript:;">
+                <span class="menu_label"> Cookie policy  </span>
+              </a>
+
+            </li>
+            <div id="show_74_1" style="display: none">
+    <div class="mega_details_wrapper">
+        <div class="mega_details_inner_wrapper">
+            <div class="mega_details_content">
+                <a href="javascript:;" class="close"></a>
+                <div class="mega_details">
+                    <h4 class="the_title">Cookie policy</h4>
+                                            <div class="btns_wrap">
+
+                                                    </div>
+                    <div class="the_content"><div id="macaron_inline_cookie_box"></div>
+</div>
+
+                </div>
+                            </div>
+        </div>
+    </div>
+</div>
+        </ul>
+            </div>
+  </div>
+  <div id="footer_bottom">
+    <div class="container">
+      <div class="socials">
+        <a target="_blank" href="https://www.instagram.com/hotel_capucines/" class="instagram"><span class="fab fa-instagram"></span></a>      </div>
+            <div class="bottom">
+        <div id="copy">
+           &copy; Copyright Hôtel Capucines 2024        </div>
+        <div id="footer_bar">Hôtel Capucines           - 3 stars hotel - SAINT TROPEZ</div>
+      </div>
+
+      <div class="widgets-container">
+                      </div>
+
+
+    </div>
+  </div>
+</div>
+
+<div id="social_sidebar" class="hidden-xs hidden-sm">
+  <a target="_blank" href="https://www.instagram.com/hotel_capucines/" class="instagram"><span class="fab fa-instagram"></span></a>  </div>
+
+<link rel='stylesheet' id='gforms_reset_css-css' href='https://www.hotelcapucines.fr/wp-content/plugins/gravityforms/css/formreset.min.css?ver=2.4.22' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_formsmain_css-css' href='https://www.hotelcapucines.fr/wp-content/plugins/gravityforms/css/formsmain.min.css?ver=2.4.22' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_ready_class_css-css' href='https://www.hotelcapucines.fr/wp-content/plugins/gravityforms/css/readyclass.min.css?ver=2.4.22' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_browsers_css-css' href='https://www.hotelcapucines.fr/wp-content/plugins/gravityforms/css/browsers.min.css?ver=2.4.22' type='text/css' media='all' />
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="//cdn.jsdelivr.net/npm/intersection-observer@0.7.0/intersection-observer.min.js?ver=0.7.0" id="lazy-load-polyfill-js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/vanilla-lazyload@12.4.0/dist/lazyload.min.js?ver=12.4.0" id="lazy-load-js"></script>
+<script type="text/javascript" defer="defer" src="//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/_shared/assets/js/slick.min.js?ver=1.9.0" id="slick-js"></script>
+<script type="text/javascript" defer="defer" src="//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/slideshow/assets/js/slideshow.js?ver=1.0.0" id="slideshow-js"></script>
+<script type="text/javascript" defer="defer" src="//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/_shared/assets/js/jquery-ui.min.js?ver=1.12.1" id="jquery-ui-js"></script>
+<script type="text/javascript" defer="defer" src="https://www.hotelcapucines.fr/wp-content/plugins/fbcmsv2/assets/js/i18n/jquery.ui.datepicker-en.js?ver=1.9.2" id="jquery-ui-dp-custom-en-js"></script>
+<script type="text/javascript" defer="defer" src="//www.hotelcapucines.fr/wp-content/themes/pro-theme-crystal/blocks/booking_form/assets/js/bookingform_inline.js?ver=1.0.0" id="booking_form_inline-js"></script>
+<script type="text/javascript" defer="defer" src="//www.hotelcapucines.fr/wp-content/themes/capucines-landing/blocks/anchor_menu/assets/js/anchor.min.js?ver=1.0.0" id="anchors-js"></script>
+<script type="text/javascript" defer="defer" src="//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/_shared/assets/js/fancybox.min.js?ver=3.5.7" id="fancybox-js"></script>
+<script type="text/javascript" src="//www.hotelcapucines.fr/wp-content/themes/pro-theme-crystal/js/main.js?ver=1.0.0" id="main-js"></script>
+<script type="text/javascript" defer="defer" src="//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/main_content/assets/js/main_content.js?ver=1.0.0" id="main_content-js"></script>
+<script type="text/javascript" defer="defer" src="//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/_shared/assets/js/mcscrollbar.min.js?ver=1.9.0" id="m_custom_scrollbar-js"></script>
+<script type="text/javascript" defer="defer" src="//websdk.fastbooking-services.com/fbsdk/fbsdk.polyfills.min.js?ver=1.0.0" id="websdk_polyfill-js"></script>
+<script type="text/javascript" defer="defer" src="//websdk.fastbooking-services.com/fbsdk/fbsdk.min.js?ver=1.9.0" id="websdk-js"></script>
+<script type="text/javascript" defer="defer" src="//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/_shared/assets/js/mustache.min.js?ver=3.1.0" id="mustache-js"></script>
+<script type="text/javascript" defer="defer" src="//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/_shared/assets/js/websdk_resolver.min.js?ver=1.0.0" id="websdk_resolver-js"></script>
+<script type="text/javascript" defer="defer" src="//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/_shared/assets/js/websdk_offers.js?ver=1.0.0" id="websdk_offers-js"></script>
+<script type="text/javascript" defer="defer" src="//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/_shared/assets/js/jquery.cookie.min.js?ver=1.4.0" id="cookie-js"></script>
+<script type="text/javascript" defer="defer" src="//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/popup/assets/js/popup.min.js?ver=1.0.0" id="popup-js"></script>
+<script type="text/javascript" defer="defer" src="//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/post_preview/assets/js/post_preview.min.js?ver=1.0.0" id="post_preview-js"></script>
+<script type="text/javascript" defer="defer" src="//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/offers/assets/js/offers_indexing.js?ver=1.0.0" id="offers_indexing-js"></script>
+<script type="text/javascript" defer="defer" src="//www.hotelcapucines.fr/wp-content/themes/pro-theme-crystal/blocks/offers/assets/js/offers_carousel.min.js?ver=1.0.0" id="offers_carousel-js"></script>
+<script type="text/javascript" defer="defer" src="//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/_shared/assets/js/pannellum.min.js?ver=2.4.1" id="pannellum-js"></script>
+<script type="text/javascript" defer="defer" src="//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/_shared/assets/js/isotope.min.js?ver=3.1.0" id="isotope-js"></script>
+<script type="text/javascript" defer="defer" src="//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/gallery/assets/js/gallery.min.js?ver=1.0.0" id="gallery-js"></script>
+<script type="text/javascript" defer="defer" src="//www.hotelcapucines.fr/wp-content/themes/pro-theme-crystal/blocks/gallery/assets/js/gallery_grid.min.js?ver=1.0.0" id="gallery_grid-js"></script>
+<script type="text/javascript" defer="defer" src="//www.hotelcapucines.fr/wp-content/plugins/de-builder-evo-blocks/blocks/expandible_contents/assets/js/expandable_contents.min.js?ver=1.0.0" id="expandable_contents-js"></script>
+<script type="text/javascript" src="https://www.hotelcapucines.fr/wp-content/plugins/fb-tracking/js/fb_tracking.js#defer" id="fbtracking-js"></script>
+<script type="text/javascript" src="https://www.hotelcapucines.fr/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.4.22" id="gform_json-js"></script>
+<script type="text/javascript" id="gform_gravityforms-js-extra">
+/* <![CDATA[ */
+var gf_global = {"gf_currency_config":{"name":"Euro","symbol_left":"","symbol_right":"&#8364;","symbol_padding":" ","thousand_separator":".","decimal_separator":",","decimals":2},"base_url":"https:\/\/www.hotelcapucines.fr\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/www.hotelcapucines.fr\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
+var gf_global = {"gf_currency_config":{"name":"Euro","symbol_left":"","symbol_right":"&#8364;","symbol_padding":" ","thousand_separator":".","decimal_separator":",","decimals":2},"base_url":"https:\/\/www.hotelcapucines.fr\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/www.hotelcapucines.fr\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.hotelcapucines.fr/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.4.22" id="gform_gravityforms-js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=en&amp;render=explicit" id="gform_recaptcha-js"></script>
+<script type="text/javascript" src="https://www.hotelcapucines.fr/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.4.22" id="gform_placeholder-js"></script>
+		<script type="text/javascript">
+			( function( $ ) {
+				$( document ).bind( 'gform_post_render', function() {
+					var gfRecaptchaPoller = setInterval( function() {
+						if( ! window.grecaptcha || ! window.grecaptcha.render ) {
+							return;
+						}
+						renderRecaptcha();
+						clearInterval( gfRecaptchaPoller );
+					}, 100 );
+				} );
+			} )( jQuery );
+		</script>
+
+				<script type="text/javascript">
+			( function( $ ) {
+				$( document ).bind( 'gform_post_render', function() {
+					var gfRecaptchaPoller = setInterval( function() {
+						if( ! window.grecaptcha || ! window.grecaptcha.render ) {
+							return;
+						}
+						renderRecaptcha();
+						clearInterval( gfRecaptchaPoller );
+					}, 100 );
+				} );
+			} )( jQuery );
+		</script>
+
+		        <!-- DEdge Macaron plugin output -->
+        <script no-loader type='text/javascript'>
+            __deCookieToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZXMiOiJ3d3cuaG90ZWxjYXB1Y2luZXMuZnIiLCJpYXQiOjE3MjI2MDk4ODUsImp0aSI6ImRhMzFiZmI0LWEwYzMtNDkxNi1iMDM2LWMzYzBmMmIzYWNhZCJ9.XXUue7naRF0OwYMMZBT13_4y-2cHCqbY8mjiBZg_ez0";
+            __deCookiesCustom = [];
+            __deCookiesStrings = {};
+            __deCookiesConfig = {"consent_mode_v2":false,"consent_mode_v2_google_ui":false,"tpl":"popin","show_refuse_button":true,"show_close_button":false,"alwaysInjectBanner":false,"dny_ac_dft":false,"privacy_policy":"https:\/\/www.hotelcapucines.fr\/en\/gestion-des-cookies\/"};
+            __deCookiesScriptUrl = "https:\/\/macaron-assets.d-edge-webstudio.com\/decookie.min.js?ver=1723538626";
+            !function(t,o,n){function a(e){window.dataLayer=window.dataLayer||[],window.console&&console.log("Pushing to DL",e),dataLayer.push(e)}var e,i,d,r,s,c,l;i=function(){window[t]=function(a){if(void 0===a||void 0===a.cookies||null===a)window.console&&console.log(t," Cookie data is null. failing gracefully");else{var e=window.__deCookiesCustom||[];if(0<e.length){for(var o=0;o<e.length;o++){var n=function(e,o){for(var n=0;n<a.cookies.length;n++)if(a.cookies[n].name===e&&a.cookies[n].domain===o)return a.cookies[n];return!1}(e[o].name,e[o].domain);!1===n?a.cookies.push(e[o]):"undefined"!=typeof jQuery&&jQuery.extend(!0,n,e[o])}window.console&&console.log&&console.log("MACARON Final list of cookies",a.cookies)}}},window.__deCookieMustacheDataFilter=function(e){"function"==typeof dedge_macaron_override_mustache_data&&dedge_macaron_override_mustache_data(e)},jQuery(document).on("__macaron_loaded",function(){var e;"undefined"!=typeof dataLayer&&(window.__deCookieClasses=__deCookies.consentGivenOn,a({event:"macaronLoaded"}),e=__deCookiesConfig.tpl||"minimal",a({macaronTemplate:e}))}),jQuery(document).on("__macaron_deps_loaded",function(){var e="undefined"!=typeof __deCookiesStrings?__deCookiesStrings:{};"undefined"!=typeof __deCookieI18n&&(__deCookieI18n=jQuery.extend(!0,__deCookieI18n,e))}),jQuery(document).on("_deCookiesConsentGiven",function(e){var o=Array.prototype.slice.call(arguments,1);"undefined"!=typeof dataLayer&&(window.__deCookieClasses=o,a({event:"macaronConsentGiven",macaronConsentClasses:o}))}),dedge_macaron_on_consent("any",function(n){var e=__deCookiesConfig.tpl||"minimal";a({macaronTemplate:e}),a({event:"macaronConsent",macaronCategories:n}),document.dispatchEvent(new CustomEvent("macaronConsentVanilla",{detail:{consent:n}})),jQuery(document).trigger("macaronConsent",{consent:n}),jQuery.each(n,function(e,o){a({event:"macaronConsent_"+o,macaronCategories:n}),document.dispatchEvent(new CustomEvent("macaronConsentVanilla_"+o,{detail:{consent:n}})),jQuery(document).trigger("macaronConsent_"+o,{consent:n})})});var e=document.createElement("script");e.setAttribute("async",!0),e.setAttribute("data-config",JSON.stringify(n)),e.id="de-macaron-script",e.src=o,((document.getElementsByTagName("head")||[null])[0]||document.getElementsByTagName("script")[0].parentNode).appendChild(e)},void 0!==(e="jQuery")&&void 0!==i&&(e.constructor!==Array&&(e=[e]),void 0===d&&(d=100),r="$_onAvailableIntervals",s="$_onAvailableCallbacks",window[r]=window[r]||[],window[s]=window[s]||[],window[s].push(i),i=window[s].length-1,window[r].push(setInterval((c=i,l=e,function(){for(var e=!0,o=0;o<l.length;o++)e=e&&function(e){e=e.split(".");for(var o=window[e.shift()];o&&e.length;)o=o[e.shift()];return void 0!==o}(l[o]);e&&(clearInterval(window[r][c]),void 0!==window[s][c]&&window[s][c]())}),d)))}("__deCookieResponseFilter",__deCookiesScriptUrl,__deCookiesConfig);        </script>
+        <style id="macaron-css-variables" type="text/css">body #macaron_cookie_box {--macaron-banner-bg: #FFFFFF; --macaron-maincta-bg: #008000; --macaron-maincta-text: #FFFFFF; --macaron-maincta-h-bg: #666666; --macaron-maincta-h-text: #FFFFFF; --macaron-choosecta-bg: #FFFFFF; --macaron-choosecta-text: #000000; --macaron-choosecta-h-bg: #FFFFFF; --macaron-choosecta-h-text: #000000; --macaron-othercta-bg: #000000; --macaron-othercta-text: #FFFFFF; --macaron-othercta-h-bg: #666666; --macaron-othercta-h-text: #FFFFFF; --macaron-cookielist-border: #000000; --macaron-text-color: #000000; --macaron-cookie-th-bg: #EEEEEE; --macaron-cookie-tr-border: #DDDDDD; --macaron-onoff-switch: #FFFFFF; --macaron-onoff-off-bg: #CCCCCC; --macaron-onoff-off-border: #CCCCCC; --macaron-onoff-on-bg: #008000; --macaron-onoff-on-border: #008000; --macaron-popin-underlay-bg: #FFFFFF; --macaron-onoff-radius-out: 24px; --macaron-onoff-radius-in: 16px; --macaron-onoff-dis-opacity: 0.3; --macaron-cta-dis-opacity: 0.3; --macaron-popin-underlay-opacity: 0.5; --macaron-cta-radius: 0px; --macaron-box-zindex: 9999999999999999999999999999;} </style>
+</body>
+</html>
+
