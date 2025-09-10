@@ -31,32 +31,43 @@
                     <i class="fas fa-stream "></i>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                    <ul class="navbar-nav menu-navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#rooms">Rooms</a>
-                        </li>
-                       
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="#gallery">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#price">Price</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#blog">Blog</a>
-                        </li>
+ <ul class="navbar-nav menu-navbar-nav">
+    <!-- Home -->
+    <li class="nav-item">
+        <a class="nav-link active" href="/Hotel/Hotel-web.php">Home</a>
+    </li>
 
-                        <li class="nav-item mt-3 mt-lg-0">
-                            <a class="main-btn" href="Book-Now.php">Book Now</a>
-                        </li>
-                    </ul>
+    <!-- About section (inside Home page) -->
+    <li class="nav-item">
+        <a class="nav-link" href="/Hotel/Hotel-web.php#about">About</a>
+    </li>
+
+    <!-- Rooms page -->
+    <li class="nav-item">
+        <a class="nav-link" href="/Hotel/Room.php">Rooms</a>
+    </li>
+
+    <!-- Gallery section (inside Explore page) -->
+    <li class="nav-item">
+        <a class="nav-link" href="/Hotel/explore.php#gallery">Gallery</a>
+    </li>
+
+    <!-- Price section (inside Home page) -->
+    <li class="nav-item">
+        <a class="nav-link" href="/Hotel/Hotel-web.php#price">Price</a>
+    </li>
+
+    <!-- Blog section (inside Home page) -->
+    <li class="nav-item">
+        <a class="nav-link" href="/Hotel/Hotel-web.php#blog">Blog</a>
+    </li>
+
+    <!-- Book Now page -->
+    <li class="nav-item mt-3 mt-lg-0">
+        <a class="main-btn" href="/Hotel/Book-Now.php">Book Now</a>
+    </li>
+</ul>
+
                 </div>
             </div>
         </nav>
